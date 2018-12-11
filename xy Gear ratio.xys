@@ -1,0 +1,46 @@
+[General]
+Version=1
+Comment=Speed vs. RPM on gas
+Kit-System=Basic
+
+[Phase conditions]
+Use phases=1
+Conditions file=xy Gear ratio.pcb
+
+[Graphics]
+Graphic type=Circle
+Line threshold=10
+Pen width=1
+Pen style=Solid
+Circle radius=3
+Fill circles=1
+Cross radius=2
+
+[Files]
+File type=Active
+
+[Color]
+Color type=Color channel
+Uni color=255
+Color channel=@Throttle
+
+[Y-Channel 0]
+Channel name=@Drive_RPM
+Lower=-125
+Upper=16125
+Range=13000
+AutoPosition=0
+AutoStretch=0
+
+[X-Channels]
+0=@Drive_Speed
+
+[Y-Channels]
+0=@Drive_RPM
+
+[X-Channel 0]
+Channel name=@Drive_Speed
+Lower=-11.6179817905919
+Upper=300.882018209408
+Range=250
+

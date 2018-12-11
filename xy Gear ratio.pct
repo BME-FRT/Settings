@@ -1,0 +1,15 @@
+[Header]
+Name=xy Gear ratio
+Logic type=0
+Delete phases smaller=0
+Condition count=1
+
+[Phase condition 0]
+Channel name=Throttle
+Phase condition type=5
+Delete phases smaller=0
+Event start=1
+Event end=1
+PC Channel Phys from=5
+PC Channel Phys to=110
+

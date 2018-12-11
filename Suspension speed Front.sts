@@ -1,0 +1,51 @@
+[General]
+Comment=
+Kit-System=Basic
+
+[Scaling]
+Limits auto=0
+Channel from=-500.00
+Channel to=500.00
+Channel steps=100
+Use range middle=0
+Rounded range middle=0
+Use auto limits=0
+Upper limit percent=10
+Upper limit values=1000
+Upper limit seconds=60
+Upper limit meter=10000
+
+[Files]
+File type=Active
+Dynamic=1
+
+[Split channel]
+Split channel=RPM
+Value from=0.00
+Value to=100.00
+Steps=10
+
+[Phase conditions]
+Use conditions=1
+Conditions file=Suspension speed Front.pct
+Split conditions file=Suspension speed FrontSplit.pct
+
+[Split diagrams]
+Split type=None
+
+[Split]
+Split type=None
+
+[Graphics]
+Settings file=Statist.sgs
+Suspension speed.sts\Susp_speed_rr_2d ViewType=0
+Suspension speed Front.sts\Susp_speed_rr_2d ViewType=0
+Suspension speed Front.sts\Susp_speed_fr_2d ViewType=0
+Suspension speed Front.sts\Susp_F_speed ViewType=0
+
+[Channels]
+0=Susp_F_speed
+
+[File names]
+0=X_SBK-BMW
+

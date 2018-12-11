@@ -1,0 +1,162 @@
+[General]
+Version number=2
+Comment=
+Color channel=@Gear_Nr
+Font.Name=Arial Black
+Font.Size=28
+Font.Style=fsBold
+Left_Color channel=@Throttle
+Right_Color channel=@Drive_RPM
+Display left color channel=0
+Display right color channel=0
+Kit-System=Basic
+
+[Layout]
+Show track start=1
+Show lap trigger=0
+Show track direction=1
+Show sections=1
+Show segments=0
+Inscript segment names=0
+Show corner numbers=1
+Show color scale=1
+Monochrome text=0
+Segment names horiz=1
+Color channel per segment=0
+
+[Laps]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=8421376
+Font.Name=Arial
+Font.Size=14
+Font.Style=
+Show segment name=1
+Segment text color=8421376
+
+[Sections]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=65280
+Font.Name=Arial
+Font.Size=14
+Font.Style=
+Show segment name=1
+Segment text color=65280
+Show section time=1
+
+[Corners]
+Visible=1
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=16776960
+Font.Name=Arial
+Font.Size=14
+Font.Style=
+Show segment name=0
+Segment text color=16776960
+
+[Straights]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=255
+Font.Name=Arial
+Font.Size=14
+Font.Style=
+Show segment name=0
+Segment text color=255
+
+[GearChange]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=128
+Font.Name=Arial
+Font.Size=12
+Font.Style=
+
+[User]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=8421504
+Font.Name=Arial
+Font.Size=12
+Font.Style=
+Show UDM Name=1
+
+[Phases start]
+Visible=1
+Show legend=0
+Dimensions=0
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=16711680
+Font.Name=Arial
+Font.Size=14
+Font.Style=fsBold
+
+[Phases end]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=8388608
+Font.Name=Arial
+Font.Size=12
+Font.Style=
+
+[Phase conditions]
+Conditions file=2D GearChange.pct
+
+[Graphics]
+Graphic type=Line
+Line threshold=10
+Pen width=3
+Pen style=Solid
+Circle radius=7
+Fill circles=1
+Cross radius=2
+
+[Phases start Channels]
+@Gear_Nr -> Gear_Nr=1
+GearChangeRPM=1
+
+[Corners Channels]
+@Drive_RPM=0,1,,0,0
+
+[Color]
+Ignore lower=0,5
+Ignore upper=6,1
+Ignore color active=0
+Left Ignore lower=-1
+Left Ignore upper=101
+Left Ignore color active=0
+Right Ignore lower=5000
+Right Ignore upper=16000
+Right Ignore color active=0
+

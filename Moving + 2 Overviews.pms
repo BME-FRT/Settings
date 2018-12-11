@@ -1,0 +1,147 @@
+[General]
+Orientation=0
+Draw frame=1
+Comment=
+Kit-System=Basic
+
+[Window properties 0]
+Moving multi measurement type=0
+Moving line width=1
+Moving show cross=0
+Moving show markers=0
+Moving use current properties=1
+Moving show grid=1
+Moving show sections=0
+Moving show segments=1
+Moving show corner numbers=1
+Moving show corner names=0
+Moving show segments vertical=1
+Measuring values maintain minimum size=0
+Overview measurement type=0
+Overview line width=1
+Circuit line width=1
+Circuit stretch to fit=0
+Section times measurement type=0
+Min/max table measurement type=0
+Track mode measurement type=0
+XY-Plot instance ID=0
+XY-Plot window index=0
+FFT measurement type=0
+Options draw border=1
+Options border width=2
+Options ignore if missing=1
+
+[Window properties 1]
+Moving multi measurement type=0
+Moving line width=1
+Moving show cross=0
+Moving show markers=0
+Moving use current properties=1
+Moving show grid=1
+Moving show sections=0
+Moving show segments=1
+Moving show corner numbers=1
+Moving show corner names=0
+Moving show segments vertical=1
+Measuring values maintain minimum size=0
+Overview measurement type=1
+Overview line width=1
+Circuit line width=1
+Circuit stretch to fit=0
+Section times measurement type=0
+Min/max table measurement type=0
+Track mode measurement type=0
+XY-Plot instance ID=0
+XY-Plot window index=0
+FFT measurement type=0
+Options draw border=1
+Options border width=2
+Options ignore if missing=1
+
+[Window properties 2]
+Moving multi measurement type=0
+Moving line width=1
+Moving show cross=0
+Moving show markers=0
+Moving use current properties=1
+Moving show grid=1
+Moving show sections=0
+Moving show segments=1
+Moving show corner numbers=1
+Moving show corner names=0
+Moving show segments vertical=1
+Measuring values maintain minimum size=0
+Overview measurement type=2
+Overview line width=1
+Circuit line width=1
+Circuit stretch to fit=0
+Section times measurement type=0
+Min/max table measurement type=0
+Track mode measurement type=0
+XY-Plot instance ID=0
+XY-Plot window index=0
+FFT measurement type=0
+Options draw border=1
+Options border width=2
+Options ignore if missing=1
+
+[Window properties 3]
+Moving multi measurement type=0
+Moving line width=1
+Moving show cross=0
+Moving show markers=0
+Moving use current properties=1
+Moving show grid=1
+Moving show sections=0
+Moving show segments=1
+Moving show corner numbers=1
+Moving show corner names=0
+Moving show segments vertical=1
+Measuring values maintain minimum size=0
+Overview measurement type=0
+Overview line width=1
+Circuit line width=1
+Circuit stretch to fit=0
+Section times measurement type=0
+Min/max table measurement type=0
+Track mode measurement type=0
+XY-Plot instance ID=0
+XY-Plot window index=0
+FFT measurement type=0
+Options draw border=1
+Options border width=2
+Options ignore if missing=1
+
+[Windows]
+0=0,0,0.75285171,0.6031746,Moving
+1=0,0.6031746,1,0.8042328,Overview
+2=0,0.7989418,1,1,Overview
+3=0.75285171,0.34920635,1,0.6031746,Circuit
+
+[Bitmap properties 0]
+File name=your_logo_here.gif
+Bitmap keep ratio=1
+Center=1
+
+[Bitmaps]
+0=0.76045627,0.11640212,0.98859316,0.33862434
+
+[Measurement data properties 0]
+Moving multi measurement type=0
+Data type=0,1,2,3
+Options draw border=1
+Options border width=2
+Options transparent=0
+Font.Name=Arial
+Font.Size=8
+Font.Style=
+Font.Color=-2147483640
+Options use measurement color=1
+Options show identifier=0
+Options ignore if missing=1
+Options align horiz=1
+Options align vert=0
+
+[Measurement data]
+0=0.75285171,0,1,0.10582011
+

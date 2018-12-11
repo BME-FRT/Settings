@@ -1,0 +1,196 @@
+[Template Favorites]
+2D Check=1
+2D Compare2Runs=1
+2D GearBox=1
+2D Gearing=1
+2D GPS Acc=1
+2D GPS Circuit=1
+2D GPS GripandYaw=1
+2D GPS GripCircle=1
+2D GPS Map=1
+2D GPS MinMax=1
+2D GPS Speed=1
+2D Lambda=1
+2D Overview=1
+2D Speed=1
+2D Speed-Gear=1
+2D SpeedMap=1
+2D Suspension=1
+2D Suspension Damping=1
+2D Suspension Position=1
+Overview=1
+
+[HotTemplateList]
+PositionAtTop=0
+DynaShrinkMode=0
+
+[Analyzer]
+Measuring all channels=0
+Relative values=0
+Last Scans=2322172
+Last seconds="1451,3575"
+Last Histogram="Damper_Vel3.sts"
+Sort type=4
+Color scheme switch=1
+Sort group=1
+Show Tips at start=0
+Replace current=1
+Show phases=0
+Last CalMode=3
+Last CalFileName DataRoot=""
+Last CalFileName Event=""
+Last CalFileName Measurement="1102-SZUCS-ENDURANCE8101.CAL"
+Last CalFileName Software="OS_US.CAL"
+Last CalFileName SWSubFolder=""
+Orig Template="SoC_Power_Energy"
+Previous Geometry Orig Template="01_SteeringThrottle"
+Last Session Orig Template="SoC_Power_Energy"
+Search calc channel=""
+Cal sort type=0
+SW SubFolder=""
+Last MinMax="electric.mms"
+Last XY-Plot="fek.xys"
+Last Track mode="TrackMode.tms"
+GPSLineFile=""
+Last FFT="miez.fft"
+Last Export="0920.exs"
+UserName="Nándi"
+
+[Options]
+KeyPanningDirection=1
+StartTimeDiff=0
+StartTimeDiff window=0
+Distance plot=0
+Complete lap=0
+Selection start=2
+Auto synchronize=1
+Auto switch distance=0
+Run lap checker=1
+Detect segments=1
+Meters lap relative=0
+Scaling screen relative=0
+Time format=1
+Last session geometry=1
+Start template="Overview"
+RiderColorCharacter1=""
+RiderColorCharacter2=""
+RiderColor1A=255
+RiderColor1B=42495
+RiderColor1C=13353215
+RiderColor1D=65535
+RiderColor2A=16711680
+RiderColor2B=16748574
+RiderColor2C=16776960
+RiderColor2D=16777184
+Print Moving white color=1
+Print Overview white color=1
+Print XY-Plot white color=1
+Print TrackMode white color=1
+Print Circuit white color=1
+Print FFT white color=1
+Print white channels color=0
+Write lap times auto=1
+MV jump auto=0
+Set cursor to center=0
+Auto convert measurement=0
+Saturated channel colors=0
+Reposition mouse=0
+Activate overview=1
+Reload without confirmation=1
+Moving grid first=1
+Clipping type=0
+Show window functions=0
+Template content V_st=0
+Template content Linked=0
+Alarm circles filled=1
+Show Channel Values Hint=1
+Show Channel Values Hint AltU=1
+Draw XYPlots buffered=1
+Draw XYPlots interruptable=1
+Ignore Local Extrema at bigger ZoomOut=1
+Ignore All at bigger ZoomOut=1
+Draw Circles at RecTime at higher ZoomIn=1
+Smart drawing=0
+Vertical mouse zoom=1
+Mouse move in measuring=0
+Print Excel direct=0
+Fix markers to data=0
+
+[Recent Files]
+0="C:\Users\bekes\Documents\FRT\2D\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
+1="C:\Users\bekes\Documents\FRT\2D\20181031_TOKOL_SZUCS\1101-SZUCS-ENDURANCE8101"
+2="C:\Users\bekes\Documents\FRT\2D\20181104_TOKOL_SZUCS.18\1104-SZUCS-PRESSREGBRAKE01"
+3="C:\Users\bekes\Documents\FRT\2D\20181104_TOKOL_SZUCS.18\1104-SZUCS-ENDU01"
+4="C:\Users\bekes\Documents\FRT\2D\20181110_TOKOL_SZUCS.18\1110-SZUCS-ENDU01"
+5="C:\Users\bekes\Documents\FRT\2D\TOKOL_HIDEGFOLDI_20180920_MCU.18\0920-REC-008-02"
+6="C:\RaceData\0904--01"
+7="C:\Users\bekes\Documents\FRT\2D\0904--01"
+8="C:\RaceData\DemoData\KIT_SBK_Demo\SBK_Demo"
+
+[MRU_Template]
+0="SoC_Power_Energy"
+1="01_SteeringThrottle"
+2="02_Brake"
+3="03_Slip"
+4="SOC_GG_MCUTEMP"
+
+[MRU_TrackMode]
+0="TrackMode.tms"
+
+[MRU_XY-Plot]
+0="SteeringAngle-Curvature.xys"
+1="fek.xys"
+2="bolintmerevseg.xys"
+3="roll_rear.xys"
+4="rollmerevseg.xys"
+
+[MRU_MinMax]
+0="IntSlip.mms"
+1="electric.mms"
+2="brakpress.mms"
+3="steeringthrottle.mms"
+
+[MRU_Histogram]
+0="brake.sts"
+1="Throttttle.sts"
+2="steering.sts"
+3="velocity.sts"
+4="Damper_Vel4.sts"
+
+[MRU_FFT]
+0="miez.fft"
+
+[MRU_Export]
+0="0920.exs"
+1="0920-REC-008-02.exs"
+
+[History]
+0="C:\TMP"
+
+[History\Export Ascii]
+0="<DataDir>"
+1="<TempDir>"
+
+[History\Export MinMax]
+0="C:\Users\bekes\Documents\FRT"
+1="C:\TMP"
+
+[MultiCircuit options]
+Color auto=1
+Line width=1
+Use color channel=0
+Color channel="Damper_Travel_FL"
+Auto center by cross=1
+Ignore lower="0"
+Ignore upper="0"
+Ignore color active=0
+
+[fCircuit]
+Track color=16711935
+Selection color=65535
+Positions size=4
+Section color=0
+Show flag=1
+Show segments=1
+Show corners=1
+

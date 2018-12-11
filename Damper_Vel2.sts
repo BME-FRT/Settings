@@ -1,0 +1,44 @@
+[Scaling]
+Limits auto=0
+Channel from=-30.00
+Channel to=30.00
+Channel steps=40
+Use range middle=0
+Rounded range middle=0
+Use auto limits=0
+Upper limit percent=20
+Upper limit values=1000
+Upper limit seconds=60
+Upper limit meter=10000
+
+[Files]
+File type=Active
+Dynamic=1
+
+[Split channel]
+Split channel=ValidSat
+Value from=-25.00
+Value to=25.00
+Steps=10
+
+[Phase conditions]
+Use conditions=1
+Conditions file=Damper_Vel2.pct
+Split conditions file=Damper_Vel2Split.pct
+
+[Split diagrams]
+Split type=None
+
+[Split]
+Split type=None
+
+[Graphics]
+Settings file=Statist.sgs
+Damper_Vel2.sts\Damper_Velocity_2 ViewType=0
+
+[Channels]
+0=Damper_Velocity_2
+
+[File names]
+0=1102-SZUCS-ENDURANCE8101
+

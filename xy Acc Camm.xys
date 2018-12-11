@@ -1,0 +1,46 @@
+[General]
+Version=1
+Comment=Combined acceleration current lap
+Kit-System=GPS
+
+[Phase conditions]
+Use phases=1
+Conditions file=xy Acc Camm.pct
+
+[Graphics]
+Graphic type=Circle
+Line threshold=10
+Pen width=1
+Pen style=Solid
+Circle radius=2
+Fill circles=1
+Cross radius=2
+
+[Files]
+File type=Active
+
+[Color]
+Color type=Color channel
+Uni color=255
+Color channel=@Int_Speed
+
+[Y-Channel 0]
+Channel name=A_Lon_GPS
+Lower=-11.2590148278706
+Upper=18.8199122768522
+Range=20
+AutoPosition=0
+AutoStretch=0
+
+[X-Channels]
+0=A_Lat_GPS
+
+[Y-Channels]
+0=A_Lon_GPS
+
+[X-Channel 0]
+Channel name=A_Lat_GPS
+Lower=-18.8660809209018
+Upper=19.8340582256659
+Range=40
+

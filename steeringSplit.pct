@@ -1,0 +1,6 @@
+[Header]
+Name=steeringSplit
+Logic type=0
+Delete phases smaller=0
+Condition count=0
+

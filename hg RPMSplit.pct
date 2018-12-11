@@ -1,0 +1,42 @@
+[Header]
+Name=hg RPMSplit
+Logic type=0
+Delete phases smaller=0
+Condition count=4
+
+[Phase condition 0]
+Channel name=Throttle
+Phase condition type=5
+Delete phases smaller=0
+Event start=1
+Event end=1
+PC Channel Phys from=-20
+PC Channel Phys to=1
+
+[Phase condition 1]
+Channel name=Throttle
+Phase condition type=5
+Delete phases smaller=0
+Event start=1
+Event end=1
+PC Channel Phys from=1
+PC Channel Phys to=20
+
+[Phase condition 2]
+Channel name=Throttle
+Phase condition type=5
+Delete phases smaller=0
+Event start=1
+Event end=1
+PC Channel Phys from=20
+PC Channel Phys to=80
+
+[Phase condition 3]
+Channel name=Throttle
+Phase condition type=5
+Delete phases smaller=0
+Event start=1
+Event end=1
+PC Channel Phys from=80
+PC Channel Phys to=130
+

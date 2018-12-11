@@ -1,0 +1,15 @@
+[Header]
+Name=2D GearChange
+Logic type=2
+Delete phases smaller=0
+Condition count=1
+
+[Phase condition 0]
+Channel name=UpShift
+Phase condition type=5
+Delete phases smaller=0
+Event start=1
+Event end=1
+PC Channel Phys from=0.5
+PC Channel Phys to=10000
+

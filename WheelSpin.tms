@@ -1,0 +1,145 @@
+[General]
+Version number=2
+Comment=
+Color channel=@Slip
+Font.Name=Arial
+Font.Size=16
+Font.Style=
+Kit-System=Basic
+
+[Layout]
+Show track start=1
+Show lap trigger=1
+Show track direction=1
+Show sections=1
+Show segments=1
+Inscript segment names=0
+Show corner numbers=1
+Show color scale=1
+Monochrome text=0
+Segment names horiz=1
+Color channel per segment=0
+
+[Laps]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=8421376
+Font.Name=Arial
+Font.Size=14
+Font.Style=
+Show segment name=1
+Segment text color=8421376
+
+[Sections]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=65280
+Font.Name=Arial
+Font.Size=14
+Font.Style=
+Show segment name=1
+Segment text color=65280
+Show section time=1
+
+[Corners]
+Visible=1
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=16776960
+Font.Name=Arial
+Font.Size=14
+Font.Style=
+Show segment name=0
+Segment text color=16776960
+
+[Straights]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=255
+Font.Name=Arial
+Font.Size=14
+Font.Style=
+Show segment name=0
+Segment text color=255
+
+[GearChange]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=128
+Font.Name=Arial
+Font.Size=12
+Font.Style=
+
+[User]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=8421504
+Font.Name=Arial
+Font.Size=12
+Font.Style=
+Show UDM Name=1
+
+[Phases start]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=16711680
+Font.Name=Arial
+Font.Size=12
+Font.Style=
+
+[Phases end]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=8388608
+Font.Name=Arial
+Font.Size=12
+Font.Style=
+
+[Phase conditions]
+Conditions file=WheelSpin.pct
+
+[Graphics]
+Graphic type=Line
+Line threshold=10
+Pen width=3
+Pen style=Solid
+Circle radius=2
+Fill circles=0
+Cross radius=2
+
+[Corners Channels]
+@Slip=1,3,,0,0
+@Gear_Nr=3,1,@Slip,0,0
+@Throttle=3,1,@Slip,0,0
+

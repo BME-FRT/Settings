@@ -1,0 +1,49 @@
+[General]
+Comment=Engine Throttle Usage
+Kit-System=Basic
+
+[Scaling]
+Limits auto=0
+Channel from=-10.00
+Channel to=110.00
+Channel steps=15
+Use range middle=0
+Rounded range middle=0
+Use auto limits=1
+Upper limit percent=100
+Upper limit values=1000
+Upper limit seconds=60
+Upper limit meter=10000
+
+[Files]
+File type=Active
+Dynamic=1
+
+[Split channel]
+Split channel=V_Sat
+Value from=0.00
+Value to=100.00
+Steps=10
+
+[Phase conditions]
+Use conditions=1
+Conditions file=Throttle.pct
+Split conditions file=ThrottleSplit.pct
+
+[Split diagrams]
+Split type=None
+
+[Split]
+Split type=None
+
+[Graphics]
+Settings file=Statist.sgs
+hg BMW_Throttle.sts\Throttle ViewType=0
+Throttle.sts\Throttle ViewType=0
+
+[Channels]
+0=@Throttle
+
+[File names]
+0=X_SBK-BMW
+

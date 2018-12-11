@@ -1,0 +1,69 @@
+[General]
+Version=1
+Comment=Acceleration vs Banking Angle - All Laps
+Kit-System=GPS
+
+[Phase conditions]
+Use phases=1
+Conditions file=Camm By GPS All Laps.pct
+
+[Graphics]
+Graphic type=Pixel
+Line threshold=10
+Pen width=1
+Pen style=Solid
+Circle radius=3
+Fill circles=1
+Cross radius=2
+
+[Files]
+File type=Active
+Dynamic=1
+
+[Color]
+Color type=Color channel
+Uni color=255
+Color channel=@Throttle
+ColorAuto=1
+Ignore lower=-5
+Ignore upper=105
+Ignore color active=0
+
+[Y-Channel 0]
+Channel name=@Acc_Lon
+Lower=-18
+Upper=13
+Range=31
+AutoPosition=0
+AutoStretch=0
+Show regression line=0
+Show accumulation numbers=0
+Show accumulation colors=0
+Accumulation min=0
+Accumulation max=100
+Accumulation steps X=10
+Accumulation steps Y=10
+Show reference regression line=0
+Regression polynom degree=1
+Clip regression polynom=0
+Regression polynom line width=1
+Regression polynom color files=1
+Regression polynom uni color=255
+Clip reference regression polynom=0
+
+[Additional]
+Down sampling=0
+Y-Channels joined=0
+
+[X-Channels]
+0=Banking_GPS
+
+[Y-Channels]
+0=@Acc_Lon
+
+[X-Channel 0]
+Channel name=Banking_GPS
+Lower=-70
+Upper=70
+Range=160
+

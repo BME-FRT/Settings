@@ -1,0 +1,46 @@
+[General]
+Comment=RPM (low/medium/full gas)
+Kit-System=Basic
+
+[Scaling]
+Channel from=5000.00
+Channel to=18000.00
+Channel steps=50
+Use range middle=0
+Rounded range middle=0
+Use auto limits=1
+Upper limit percent=100
+Upper limit values=1000
+Upper limit seconds=60
+Limits auto=1
+
+[Files]
+File type=Active
+
+[Split channel]
+Split channel=V_Front
+Value from=0.00
+Value to=100.00
+Steps=10
+
+[Phase conditions]
+Use conditions=1
+Conditions file=hg RPM.pcb
+Split conditions file=hg RPMSplit.pcb
+
+[Split diagrams]
+Split type=Conditions
+
+[Split]
+Split type=None
+
+[Graphics]
+Settings file=Statist.sgs
+hg RPM.sts\RPM ViewType=0
+
+[Channels]
+0=RPM
+
+[File names]
+0=RUN-01
+

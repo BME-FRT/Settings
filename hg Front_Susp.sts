@@ -1,0 +1,48 @@
+[General]
+Comment=Front susp (no gas/on gas)
+Kit-System=Sensors
+
+[Scaling]
+Channel from=-50.00
+Channel to=170.00
+Channel steps=50
+Use range middle=0
+Rounded range middle=0
+Use auto limits=1
+Upper limit percent=100
+Upper limit values=1000
+Upper limit seconds=60
+Limits auto=0
+Upper limit meter=10000
+
+[Files]
+File type=Active
+Dynamic=1
+
+[Split channel]
+Split channel=V_Front
+Value from=0.00
+Value to=100.00
+Steps=10
+
+[Phase conditions]
+Use conditions=1
+Conditions file=hg Front_Susp.pct
+Split conditions file=hg Front_SuspSplit.pct
+
+[Split diagrams]
+Split type=None
+
+[Split]
+Split type=Conditions
+
+[Graphics]
+Settings file=Statist stacked.sgs
+hg Front_Susp.sts\Susp_F ViewType=0
+
+[Channels]
+0=@Front_Susp
+
+[File names]
+0=SBK_Demo
+

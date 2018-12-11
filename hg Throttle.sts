@@ -1,0 +1,44 @@
+[General]
+Comment=Gas usage over valid laps
+Kit-System=Basic
+
+[Scaling]
+Channel from=-7.00
+Channel to=113.00
+Channel steps=12
+Use range middle=0
+Rounded range middle=0
+Use auto limits=1
+Upper limit percent=100
+Upper limit values=1000
+Upper limit seconds=60
+
+[Files]
+File type=Active
+
+[Split channel]
+Split channel=V_front
+Value from=0.00
+Value to=100.00
+Steps=10
+
+[Phase conditions]
+Use conditions=1
+Conditions file=hg Throttle.pcb
+Split conditions file=hg ThrottleSplit.pcb
+
+[Split diagrams]
+Split type=None
+
+[Split]
+Split type=None
+
+[Graphics]
+Settings file=Statist.sgs
+
+[Channels]
+0=@Throttle
+
+[File names]
+0=Kit R1 Test
+

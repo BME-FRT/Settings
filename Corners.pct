@@ -1,0 +1,6 @@
+[Header]
+Name=Corners
+Logic type=2
+Delete phases smaller=0
+Condition count=0
+

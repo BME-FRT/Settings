@@ -1,0 +1,39 @@
+[General]
+WidthPercentage=90
+HeightPercentage=90
+Series type=3
+Use back image=0
+Back image=
+View3D=0
+Chart3DPercent=50
+Orthogonal=0
+Elevation=345
+Rotation=345
+Show markers=0
+Show markers XValue=1
+Zoom=74
+
+[Line]
+Stairs=0
+InvertedStairs=0
+
+[Area]
+Stairs=0
+InvertedStairs=0
+
+[Point]
+PointerStyle=0
+
+[Bar]
+BarStyle=0
+BarWidthPercent=70
+Dark3D=1
+MultiBar=0
+
+[Pie]
+Dark3D=1
+ExplodeBiggest=0
+
+[Colors]
+BackGround=-2147483633
+

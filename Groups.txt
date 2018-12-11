@@ -1,0 +1,34 @@
+[Groups]
+0=Speed
+1=Accel
+2=HV
+3=Slip
+4=Temperature
+5=Pressure
+6=ACC
+7=Brake-Press
+8=Group 9
+9=Group 10
+10=Telemetry
+11=TeleScope
+12=TeleSave
+13=Group 14
+14=Group 15
+15=Group 16
+16=Group 17
+17=Group 18
+18=Group 19
+19=Group 20
+20=Group 21
+21=Group 22
+22=Group 23
+23=Group 24
+24=Group 25
+25=Group 26
+26=Group 27
+27=Group 28
+28=Group 29
+29=Group 30
+30=Group 31
+31=Group 32
+

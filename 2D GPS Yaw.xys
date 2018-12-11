@@ -1,0 +1,90 @@
+[General]
+Version=1
+Kit-System=Basic
+
+[Color]
+ColorAuto=1
+Color type=Color channel
+Uni color=255
+Color channel=Banking_GPS
+Ignore lower=80
+Ignore upper=-80
+Ignore color active=0
+
+[Additional]
+Y-Channels joined=0
+Down sampling=0
+
+[Phase conditions]
+Use phases=0
+Conditions file=2D GPS Yaw.pct
+
+[Graphics]
+Graphic type=Pixel
+Line threshold=10
+Pen width=0
+Pen style=Solid
+Circle radius=2
+Fill circles=0
+Cross radius=2
+
+[Files]
+File type=Active
+Dynamic=1
+
+[Y-Channel 0]
+Channel name=GPS_Yaw
+Lower=-50
+Upper=50
+Range=100
+AutoPosition=0
+AutoStretch=0
+Show regression line=0
+Show reference regression line=0
+Regression polynom degree=1
+Clip regression polynom=0
+Regression polynom line width=1
+Regression polynom color files=1
+Regression polynom uni color=255
+Clip reference regression polynom=0
+Show accumulation numbers=0
+Show accumulation colors=0
+Accumulation min=0
+Accumulation max=100
+Accumulation steps X=10
+Accumulation steps Y=10
+
+[Y-Channel 1]
+Channel name=GPS_Yaw
+Lower=-50
+Upper=50
+Range=100
+AutoPosition=0
+AutoStretch=0
+Show regression line=0
+Show reference regression line=0
+Regression polynom degree=1
+Clip regression polynom=0
+Regression polynom line width=1
+Regression polynom color files=1
+Regression polynom uni color=255
+Clip reference regression polynom=0
+Show accumulation numbers=0
+Show accumulation colors=0
+Accumulation min=0
+Accumulation max=100
+Accumulation steps X=10
+Accumulation steps Y=10
+
+[X-Channels]
+0=V_GPS
+
+[Y-Channels]
+0=GPS_Yaw
+
+[X-Channel 0]
+Channel name=V_GPS
+Lower=50
+Upper=270
+Range=270
+

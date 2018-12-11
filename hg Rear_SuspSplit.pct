@@ -1,0 +1,24 @@
+[Header]
+Name=hg Rear_SuspSplit
+Logic type=0
+Delete phases smaller=0
+Condition count=2
+
+[Phase condition 0]
+Channel name=Throttle
+Phase condition type=5
+Delete phases smaller=0
+Event start=1
+Event end=1
+PC Channel Phys from=-10
+PC Channel Phys to=5
+
+[Phase condition 1]
+Channel name=Throttle
+Phase condition type=5
+Delete phases smaller=0
+Event start=1
+Event end=1
+PC Channel Phys from=5
+PC Channel Phys to=110
+

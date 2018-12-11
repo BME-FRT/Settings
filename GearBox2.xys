@@ -1,0 +1,58 @@
+[Phase conditions]
+Conditions file=GearBox2.pct
+Use phases=1
+
+[Graphics]
+Graphic type=Pixel
+Line threshold=10
+Pen width=1
+Pen style=Solid
+Circle radius=2
+Fill circles=1
+Cross radius=2
+
+[Files]
+File type=Active
+Dynamic=1
+
+[Color]
+Color type=Color channel
+Uni color=255
+Color channel=@Throttle
+ColorAuto=1
+
+[Y-Channel 0]
+Channel name=@Drive_Speed
+Lower=0
+Upper=300
+Range=330
+AutoPosition=0
+AutoStretch=0
+Show regression line=0
+Show accumulation numbers=0
+Show accumulation colors=0
+Accumulation min=0
+Accumulation max=100
+Accumulation steps X=10
+Accumulation steps Y=10
+
+[General]
+Comment=Speed vs RPM - All Laps
+Kit-System=Basic
+Version=1
+
+[Additional]
+Down sampling=0
+
+[X-Channels]
+0=@Drive_RPM
+
+[Y-Channels]
+0=@Drive_Speed
+
+[X-Channel 0]
+Channel name=@Drive_RPM
+Lower=0
+Upper=15000
+Range=14000
+

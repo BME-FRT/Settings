@@ -1,0 +1,93 @@
+[General]
+Version=1
+
+[Color]
+ColorAuto=1
+Color type=Uni
+Uni color=255
+Color channel=SlipControl_Input3
+Ignore lower=-1000000
+Ignore upper=1000000
+Ignore color active=0
+
+[Additional]
+Y-Channels joined=0
+Down sampling=0
+
+[Phase conditions]
+Use phases=1
+Conditions file=rideheight.pct
+
+[Graphics]
+Graphic type=Pixel
+Line threshold=10
+Pen width=0
+Pen style=Solid
+Circle radius=2
+Fill circles=0
+Cross radius=2
+
+[Files]
+File type=Active
+Dynamic=1
+
+[Y-Channel 0]
+Channel name=Ride_Height_Front
+Lower=30,5755395683454
+Upper=60,0719424460432
+Range=100
+AutoPosition=0
+AutoStretch=0
+Show regression line=1
+Show reference regression line=0
+Regression polynom degree=1
+Clip regression polynom=0
+Regression polynom line width=1
+Regression polynom color files=1
+Regression polynom uni color=255
+Clip reference regression polynom=0
+Show accumulation numbers=0
+Show accumulation colors=0
+Accumulation min=0
+Accumulation max=100
+Accumulation steps X=10
+Accumulation steps Y=10
+
+[Y-Channel 1]
+Channel name=Ride_Height_Rear
+Lower=0
+Upper=100
+Range=100
+AutoPosition=0
+AutoStretch=0
+Show regression line=1
+Show reference regression line=0
+Regression polynom degree=1
+Clip regression polynom=0
+Regression polynom line width=1
+Regression polynom color files=1
+Regression polynom uni color=255
+Clip reference regression polynom=0
+Show accumulation numbers=0
+Show accumulation colors=0
+Accumulation min=0
+Accumulation max=100
+Accumulation steps X=10
+Accumulation steps Y=10
+
+[X-Channels]
+0=ACC_X
+
+[Y-Channels]
+0=Ride_Height_Front
+1=Ride_Height_Rear
+
+[X-Channel 0]
+Channel name=ACC_X
+Lower=-6,7710843373494
+Upper=12,6987951807229
+Range=20
+
+[File names]
+0=1102-SZUCS-ENDURANCE8101
+

@@ -1,0 +1,45 @@
+[Scaling]
+Limits auto=0
+Channel from=0.00
+Channel to=110.00
+Channel steps=40
+Use range middle=0
+Rounded range middle=0
+Use auto limits=0
+Upper limit percent=20
+Upper limit values=1000
+Upper limit seconds=60
+Upper limit meter=10000
+
+[Files]
+File type=Active
+Dynamic=1
+
+[Split channel]
+Split channel=SlipControl_Input3
+Value from=0.00
+Value to=100.00
+Steps=10
+
+[Phase conditions]
+Use conditions=1
+Conditions file=velocity.pct
+Split conditions file=velocitySplit.pct
+
+[Split diagrams]
+Split type=None
+
+[Split]
+Split type=None
+
+[Graphics]
+Settings file=Statist.sgs
+velocity.sts\WheelSpeed_1 ViewType=0
+velocity.sts\VehicleSpeed ViewType=0
+
+[Channels]
+0=VehicleSpeed
+
+[File names]
+0=1102-SZUCS-ENDURANCE8101
+

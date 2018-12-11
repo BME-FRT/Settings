@@ -1,0 +1,70 @@
+[General]
+Version=1
+Comment=RPM vs Speed - All Laps
+Kit-System=Basic
+
+[Color]
+ColorAuto=1
+Color type=Color channel
+Uni color=-2147483633
+Color channel=@Throttle
+Ignore lower=-10
+Ignore upper=110
+Ignore color active=0
+
+[Phase conditions]
+Use phases=1
+Conditions file=GearBox1.pct
+
+[Graphics]
+Graphic type=Pixel
+Line threshold=1
+Pen width=1
+Pen style=Solid
+Circle radius=2
+Fill circles=0
+Cross radius=2
+
+[Files]
+File type=All
+Dynamic=1
+
+[Y-Channel 0]
+Channel name=@Drive_RPM
+Lower=5000
+Upper=15000
+Range=15000
+AutoPosition=0
+AutoStretch=0
+Show regression line=0
+Show accumulation numbers=0
+Show accumulation colors=0
+Accumulation min=0
+Accumulation max=100
+Accumulation steps X=10
+Accumulation steps Y=10
+Show reference regression line=0
+Regression polynom degree=1
+Reference regression polynom text=
+Clip regression polynom=0
+Regression polynom line width=1
+Regression polynom color files=1
+Regression polynom uni color=255
+Clip reference regression polynom=0
+
+[Additional]
+Down sampling=0
+Y-Channels joined=0
+
+[X-Channels]
+0=@Drive_Speed
+
+[Y-Channels]
+0=@Drive_RPM
+
+[X-Channel 0]
+Channel name=@Drive_Speed
+Lower=50
+Upper=300
+Range=300
+

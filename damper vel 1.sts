@@ -1,0 +1,44 @@
+[Scaling]
+Limits auto=0
+Channel from=-30.00
+Channel to=30.00
+Channel steps=40
+Use range middle=0
+Rounded range middle=0
+Use auto limits=0
+Upper limit percent=20
+Upper limit values=1000
+Upper limit seconds=60
+Upper limit meter=10000
+
+[Files]
+File type=Active
+Dynamic=1
+
+[Split channel]
+Split channel=SlipControl_Input3
+Value from=-25.00
+Value to=25.00
+Steps=10
+
+[Phase conditions]
+Use conditions=1
+Conditions file=damper vel 1.pct
+Split conditions file=damper vel 1Split.pct
+
+[Split diagrams]
+Split type=None
+
+[Split]
+Split type=None
+
+[Graphics]
+Settings file=Statist.sgs
+damper vel 1.sts\Damper_Velocity_1 ViewType=0
+
+[Channels]
+0=Damper_Velocity_1
+
+[File names]
+0=1102-SZUCS-ENDURANCE8101
+

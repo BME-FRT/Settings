@@ -1,0 +1,46 @@
+[General]
+Version=1
+Comment=RPM vs. Lambda full gas
+Kit-System=Lambda
+
+[Phase conditions]
+Use phases=1
+Conditions file=xy A_F full gas.pcb
+
+[Graphics]
+Graphic type=Circle
+Line threshold=10
+Pen width=1
+Pen style=Solid
+Circle radius=3
+Fill circles=1
+Cross radius=2
+
+[Files]
+File type=Active
+
+[Color]
+Color type=Color channel
+Uni color=255
+Color channel=@Int_Speed
+
+[Y-Channel 0]
+Channel name=A/F#1
+Lower=11.4914076751694
+Upper=16.4831610470384
+Range=4.09240019437857
+AutoPosition=0
+AutoStretch=0
+
+[X-Channels]
+0=RPM
+
+[Y-Channels]
+0=A/F#1
+
+[X-Channel 0]
+Channel name=RPM
+Lower=9563.06373035848
+Upper=14398.2269487493
+Range=4313.92
+

@@ -1,0 +1,44 @@
+[General]
+Orientation=1
+Draw frame=1
+Comment=One big moving window
+Kit-System=Basic
+
+[Window properties 0]
+Moving multi measurement type=0
+Moving line width=1
+Moving show cross=0
+Moving show markers=0
+Moving use current properties=1
+Moving show grid=1
+Moving show sections=0
+Moving show segments=1
+Moving show corner numbers=1
+Moving show corner names=0
+Moving show segments vertical=1
+Measuring values maintain minimum size=1
+Overview measurement type=0
+Overview line width=1
+Circuit line width=1
+Circuit stretch to fit=0
+Section times measurement type=0
+Min/max table measurement type=0
+Track mode measurement type=0
+XY-Plot instance ID=0
+XY-Plot window index=0
+FFT measurement type=0
+Options draw border=1
+Options border width=2
+Options ignore if missing=1
+
+[Windows]
+0=0,0,1,1,Moving
+
+[Bitmap properties 0]
+File name=2d.jpg
+Bitmap keep ratio=1
+Center=0
+
+[Bitmaps]
+0=0.76045627,0.19047619,0.93536122,0.31746032
+

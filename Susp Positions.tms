@@ -1,0 +1,163 @@
+[General]
+Version number=2
+Comment=
+Color channel=Throttle
+Left_Color channel=
+Right_Color channel=
+Display left color channel=0
+Display right color channel=0
+Font.Name=Arial
+Font.Size=16
+Font.Style=
+Kit-System=Basic
+
+[Layout]
+Show track start=1
+Show lap trigger=1
+Show track direction=1
+Show sections=1
+Show segments=1
+Inscript segment names=0
+Show corner numbers=1
+Show color scale=1
+Monochrome text=0
+Segment names horiz=1
+Color channel per segment=0
+
+[Laps]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=8421376
+Font.Name=Arial
+Font.Size=14
+Font.Style=
+Show segment name=1
+Segment text color=8421376
+
+[Sections]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=65280
+Font.Name=Arial
+Font.Size=14
+Font.Style=
+Show segment name=1
+Segment text color=65280
+Show section time=1
+
+[Corners]
+Visible=1
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=16776960
+Font.Name=Arial
+Font.Size=14
+Font.Style=
+Show segment name=0
+Segment text color=16776960
+
+[Corners Channels]
+Speed=0,1,,0,0
+Susp_fr_lo_2d=3,20,Speed,0,0
+Susp_rr_lo_2d=3,20,Speed,0,0
+@Int_Speed=0,1,,0,0
+Susp_F_lo=3,1,@Int_Speed,0,1
+Susp_R_lo=3,1,@Int_Speed,0,1
+
+[Straights]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=255
+Font.Name=Arial
+Font.Size=14
+Font.Style=
+Show segment name=0
+Segment text color=255
+
+[GearChange]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=128
+Font.Name=Arial
+Font.Size=12
+Font.Style=
+
+[User]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=8421504
+Font.Name=Arial
+Font.Size=12
+Font.Style=
+Show UDM Name=1
+
+[Phases start]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=16711680
+Font.Name=Arial
+Font.Size=12
+Font.Style=
+
+[Phases end]
+Visible=0
+Show legend=1
+Dimensions=1
+Lap meter=0
+Track meter=0
+Connection line=1
+Segment frame color=8388608
+Font.Name=Arial
+Font.Size=12
+Font.Style=
+
+[Phase conditions]
+Conditions file=Susp Positions.pct
+
+[Graphics]
+Graphic type=Line
+Line threshold=10
+Pen width=3
+Pen style=Solid
+Circle radius=2
+Fill circles=0
+Cross radius=2
+
+[Color]
+Ignore lower=-10
+Ignore upper=110
+Ignore color active=0
+Left Ignore lower=-1000000
+Left Ignore upper=1000000
+Left Ignore color active=0
+Right Ignore lower=-1000000
+Right Ignore upper=1000000
+Right Ignore color active=0
+

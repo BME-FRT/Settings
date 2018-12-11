@@ -1,0 +1,45 @@
+[General]
+Comment=Rear susp (no gas/on gas)
+Kit-System=Sensors
+
+[Scaling]
+Channel from=0.00
+Channel to=80.00
+Channel steps=40
+Use range middle=0
+Rounded range middle=0
+Use auto limits=1
+Upper limit percent=100
+Upper limit values=1000
+Upper limit seconds=60
+Limits auto=1
+
+[Files]
+File type=Active
+
+[Split channel]
+Split channel=V_Front
+Value from=0.00
+Value to=100.00
+Steps=10
+
+[Phase conditions]
+Use conditions=1
+Conditions file=hg Rear_Susp.pcb
+Split conditions file=hg Rear_SuspSplit.pcb
+
+[Split diagrams]
+Split type=None
+
+[Split]
+Split type=Conditions
+
+[Graphics]
+Settings file=Statist stacked.sgs
+
+[Channels]
+0=@Rear_Susp
+
+[File names]
+0=RUN-01
+

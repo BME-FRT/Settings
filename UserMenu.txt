@@ -1,0 +1,12 @@
+[User menu]
+0=mChannels,
+2=mMultiCircuit,
+3=mLaps,
+4=mMinmaxtable,
+5=mTrackMode,
+6=mXYPlot,
+7=mHistogram,
+12=mPrintMan,
+16=mV_von_S,
+17=mV_von_T,
+18=mMeasuring,

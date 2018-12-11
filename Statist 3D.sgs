@@ -1,0 +1,39 @@
+[General]
+WidthPercentage=90
+HeightPercentage=90
+Series type=3
+Use back image=1
+Back image=C:\RaceKit5.1\Settings\Print images\Analyzer Background.bmp
+View3D=1
+Chart3DPercent=37
+Orthogonal=0
+Elevation=341
+Rotation=345
+Show markers=0
+Show markers XValue=0
+Zoom=64
+
+[Line]
+Stairs=0
+InvertedStairs=0
+
+[Area]
+Stairs=0
+InvertedStairs=0
+
+[Point]
+PointerStyle=0
+
+[Bar]
+BarStyle=0
+BarWidthPercent=70
+Dark3D=1
+MultiBar=0
+
+[Pie]
+Dark3D=1
+ExplodeBiggest=0
+
+[Colors]
+BackGround=16777215
+

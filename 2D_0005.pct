@@ -1,0 +1,15 @@
+[Header]
+Name=2D_0005
+Logic type=0
+Delete phases smaller=0
+Condition count=1
+
+[Phase condition 0]
+Channel name=video_export_trigger
+Phase condition type=5
+Delete phases smaller=0
+Event start=1
+Event end=1
+PC Channel Phys from=0.5
+PC Channel Phys to=1.5
+

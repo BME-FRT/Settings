@@ -1,0 +1,49 @@
+[General]
+Comment=Engine RPM - Off Throttle / On Throttle
+Kit-System=Basic
+
+[Scaling]
+Limits auto=0
+Channel from=0.00
+Channel to=15000.00
+Channel steps=50
+Use range middle=0
+Rounded range middle=0
+Use auto limits=1
+Upper limit percent=100
+Upper limit values=1000
+Upper limit seconds=60
+Upper limit meter=10000
+
+[Files]
+File type=All
+Dynamic=1
+
+[Split channel]
+Split channel=Grip_pos
+Value from=0.00
+Value to=100.00
+Steps=3
+
+[Phase conditions]
+Use conditions=1
+Conditions file=RPM.pct
+Split conditions file=RPMSplit.pct
+
+[Split diagrams]
+Split type=Conditions
+
+[Split]
+Split type=None
+
+[Graphics]
+hg BMW_RPM.sts\RPM ViewType=0
+Settings file=Statist.sgs
+RPM.sts\RPM ViewType=0
+
+[Channels]
+0=@Drive_RPM
+
+[File names]
+0=usbmemdemo
+

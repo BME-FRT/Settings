@@ -1,0 +1,58 @@
+[General]
+Version=1
+Comment=Acceleration vs Banking Angle - Current Lap
+Kit-System=GPS
+
+[Phase conditions]
+Use phases=1
+Conditions file=Camm By GPS Current Lap.pct
+
+[Graphics]
+Graphic type=Circle
+Line threshold=10
+Pen width=1
+Pen style=Solid
+Circle radius=2
+Fill circles=1
+Cross radius=2
+
+[Files]
+File type=Active
+Dynamic=1
+
+[Color]
+Color type=Color channel
+Uni color=255
+Color channel=@Throttle
+ColorAuto=1
+
+[Y-Channel 0]
+Channel name=@Acc_Lon
+Lower=-18
+Upper=13
+Range=31
+AutoPosition=0
+AutoStretch=0
+Show regression line=0
+Show accumulation numbers=0
+Show accumulation colors=0
+Accumulation min=0
+Accumulation max=100
+Accumulation steps X=10
+Accumulation steps Y=10
+
+[Additional]
+Down sampling=0
+
+[X-Channels]
+0=Banking_GPS
+
+[Y-Channels]
+0=@Acc_Lon
+
+[X-Channel 0]
+Channel name=Banking_GPS
+Lower=80
+Upper=-80
+Range=160
+
