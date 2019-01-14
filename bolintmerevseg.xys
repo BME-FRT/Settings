@@ -54,14 +54,17 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=Acceleration_X_Front
+0=Acceleration_X_Front_Filtered
 
 [Y-Channels]
 0=PitchAngle
 
 [X-Channel 0]
-Channel name=Acceleration_X_Front
-Lower=-1,52990476190476
-Upper=1,02653968253968
-Range=40
+Channel name=Acceleration_X_Front_Filtered
+Lower=-3
+Upper=3
+Range=6
+
+[File names]
+0=1102-SZUCS-ENDURANCE8101
 

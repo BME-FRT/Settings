@@ -54,14 +54,17 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=Acceleration_Y_Rear
+0=Acceleration_Y_Rear_Filtered
 
 [Y-Channels]
 0=Roll_Angle_Rear
 
 [X-Channel 0]
-Channel name=Acceleration_Y_Rear
-Lower=-20
-Upper=20
-Range=7,21146131805158
+Channel name=Acceleration_Y_Rear_Filtered
+Lower=-3
+Upper=3
+Range=6
+
+[File names]
+0=1102-SZUCS-ENDURANCE8101
 

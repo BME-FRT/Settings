@@ -6,9 +6,9 @@ Use phases=0
 Conditions file=IntSlip.pct
 
 [Export]
-Export file name=01
+Export file name=1212
 Type=2
-Append to Excel sheet=0
+Append to Excel sheet=1
 Insert lines=1
 
 [MinMax Channels]

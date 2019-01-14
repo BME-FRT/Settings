@@ -1,6 +1,6 @@
 [Header]
-Name=rollmerevseg
-Logic type=0
+Name=aero map
+Logic type=1
 Delete phases smaller=0
 Condition count=1
 

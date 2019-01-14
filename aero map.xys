@@ -3,11 +3,11 @@ Version=1
 
 [Color]
 ColorAuto=1
-Color type=Uni
+Color type=Color channel
 Uni color=255
-Color channel=V_Front
-Ignore lower=-1000000
-Ignore upper=1000000
+Color channel=VehicleSpeed
+Ignore lower=0
+Ignore upper=120
 Ignore color active=0
 
 [Additional]
@@ -16,7 +16,7 @@ Down sampling=0
 
 [Phase conditions]
 Use phases=1
-Conditions file=rollmerevseg.pct
+Conditions file=aero map.pct
 
 [Graphics]
 Graphic type=Pixel
@@ -32,40 +32,40 @@ File type=Active
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Roll_Angle_Front
-Lower=0,0790067720090293
-Upper=3,54401805869075
-Range=1,95662299221907
+Channel name=Ride_Height_Rear
+Lower=27,4963820549928
+Upper=48,6251808972504
+Range=40,4364857461756
 AutoPosition=1
 AutoStretch=0
 Show regression line=1
 Show reference regression line=0
 Regression polynom degree=1
 Clip regression polynom=0
-Regression polynom line width=2
-Regression polynom color files=0
-Regression polynom uni color=65280
-Clip reference regression polynom=1
+Regression polynom line width=1
+Regression polynom color files=1
+Regression polynom uni color=255
+Clip reference regression polynom=0
 Show accumulation numbers=0
 Show accumulation colors=0
 Accumulation min=0
 Accumulation max=100
 Accumulation steps X=10
 Accumulation steps Y=10
-Reference regression polynom text=- 0.0361090239474864x - 0.0378054814437232
+Reference regression polynom text=- 1.70096238843246x + 25.4228159791416 
 
 [X-Channels]
-0=Acceleration_Y_Front_Filtered
+0=Acceleration_X_Front_Filtered
 
 [Y-Channels]
-0=Roll_Angle_Front
+0=Ride_Height_Rear
 
 [X-Channel 0]
-Channel name=Acceleration_Y_Front_Filtered
+Channel name=Acceleration_X_Front_Filtered
 Lower=-3
 Upper=3
-Range=6
+Range=0,212818840472683
 
 [File names]
-0=1102-SZUCS-ENDURANCE8101
+0=1214-SZUCS-ENDU01
 

@@ -1,5 +1,5 @@
 [Header]
-Name=rollmerevseg
+Name=regbrake
 Logic type=0
 Delete phases smaller=0
 Condition count=1
