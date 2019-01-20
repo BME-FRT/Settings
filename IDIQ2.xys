@@ -4,8 +4,8 @@ Version=1
 [Color]
 ColorAuto=1
 Color type=Uni
-Uni color=255
-Color channel=VehicleSpeed
+Uni color=4259584
+Color channel=ACCEL1_1_32BIT
 Ignore lower=-1000000
 Ignore upper=1000000
 Ignore color active=0
@@ -16,7 +16,7 @@ Down sampling=0
 
 [Phase conditions]
 Use phases=1
-Conditions file=C_RollRes.pct
+Conditions file=IDIQ2.pct
 
 [Graphics]
 Graphic type=Pixel
@@ -32,20 +32,20 @@ File type=Active
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Acceleration_X_Front_Filtered
-Lower=-0,336908298290961
-Upper=-0,0694289057778121
-Range=3,7473266892028
-AutoPosition=1
-AutoStretch=1
-Show regression line=1
-Show reference regression line=1
+Channel name=Iq2
+Lower=-0,05
+Upper=0,5
+Range=100
+AutoPosition=0
+AutoStretch=0
+Show regression line=0
+Show reference regression line=0
 Regression polynom degree=1
 Clip regression polynom=0
 Regression polynom line width=1
-Regression polynom color files=0
-Regression polynom uni color=65280
-Clip reference regression polynom=1
+Regression polynom color files=1
+Regression polynom uni color=255
+Clip reference regression polynom=0
 Show accumulation numbers=0
 Show accumulation colors=0
 Accumulation min=0
@@ -54,14 +54,14 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=VehicleSpeed
+0=Id2
 
 [Y-Channels]
-0=Acceleration_X_Front_Filtered
+0=Iq2
 
 [X-Channel 0]
-Channel name=VehicleSpeed
-Lower=74,8976214390066
-Upper=77,8371530314098
-Range=116,737434022105
+Channel name=Id2
+Lower=-0,2
+Upper=0,2
+Range=100
 

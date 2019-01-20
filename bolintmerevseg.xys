@@ -33,8 +33,8 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=PitchAngle
-Lower=-0,698257143707215
-Upper=0,0997591208232102
+Lower=-0,375771118999714
+Upper=0,422245145530711
 Range=20
 AutoPosition=0
 AutoStretch=0
@@ -61,10 +61,7 @@ Accumulation steps Y=10
 
 [X-Channel 0]
 Channel name=Acceleration_X_Front_Filtered
-Lower=-3
-Upper=3
+Lower=-3,04697986577181
+Upper=2,95302013422819
 Range=6
-
-[File names]
-0=1102-SZUCS-ENDURANCE8101
 

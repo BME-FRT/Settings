@@ -3,11 +3,11 @@ Version=1
 
 [Color]
 ColorAuto=1
-Color type=Color channel
+Color type=Uni
 Uni color=255
-Color channel=VehicleSpeed
-Ignore lower=0
-Ignore upper=120
+Color channel=Acceleration_X_Front
+Ignore lower=-1000000
+Ignore upper=1000000
 Ignore color active=0
 
 [Additional]
@@ -16,7 +16,7 @@ Down sampling=0
 
 [Phase conditions]
 Use phases=1
-Conditions file=3d.pct
+Conditions file=IDIQ1.pct
 
 [Graphics]
 Graphic type=Pixel
@@ -32,10 +32,10 @@ File type=Active
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Power_Electric
-Lower=0
-Upper=100
-Range=10000
+Channel name=Iq1
+Lower=-0,05
+Upper=0,5
+Range=100
 AutoPosition=0
 AutoStretch=0
 Show regression line=0
@@ -54,17 +54,14 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=Motor_Efficiency
+0=Id1
 
 [Y-Channels]
-0=Power_Electric
+0=Iq1
 
 [X-Channel 0]
-Channel name=Motor_Efficiency
-Lower=0
-Upper=1
-Range=1
-
-[File names]
-0=1214-SZUCS-ENDU01
+Channel name=Id1
+Lower=-0,2
+Upper=0,2
+Range=100
 
