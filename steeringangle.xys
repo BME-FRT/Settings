@@ -33,10 +33,10 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=Curvature
-Lower=-0,5
-Upper=0,5
-Range=1
-AutoPosition=0
+Lower=-1,87660727001351
+Upper=2,04926914051711
+Range=0,20654019978262
+AutoPosition=1
 AutoStretch=1
 Show regression line=0
 Show reference regression line=0
@@ -61,10 +61,7 @@ Accumulation steps Y=10
 
 [X-Channel 0]
 Channel name=Steering_Angle_2
-Lower=-100
-Upper=100
-Range=200
-
-[File names]
-0=1212-SZUCS-ENDU02
+Lower=-151,892386073
+Upper=83,6996149886623
+Range=6,24090579184207
 

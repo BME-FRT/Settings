@@ -20,8 +20,8 @@ DynaShrinkMode=0
 [Analyzer]
 Measuring all channels=0
 Relative values=0
-Last Scans=1408558
-Last seconds="880,34875"
+Last Scans=520780
+Last seconds="325,4875"
 Last Histogram="Damper_Vel3.sts"
 Sort type=4
 Color scheme switch=1
@@ -33,15 +33,15 @@ Last CalMode=3
 Last CalFileName DataRoot=""
 Last CalFileName Event=""
 Last CalFileName Measurement="1212-SZUCS-ENDU01.CAL"
-Last CalFileName Software="Brake_Pressure.CAL"
+Last CalFileName Software="INT_Throttle.CAL"
 Last CalFileName SWSubFolder=""
 Orig Template="02_Brake"
-Previous Geometry Orig Template="02_Brake"
+Previous Geometry Orig Template="DamperHist_RideHeight"
 Last Session Orig Template="02_Brake"
 Search calc channel=""
 Cal sort type=0
 SW SubFolder=""
-Last MinMax="brakpress.mms"
+Last MinMax="TestDataTemplate.mms"
 Last XY-Plot="fek.xys"
 Last Track mode="TrackMode.tms"
 GPSLineFile=""
@@ -111,8 +111,8 @@ Fix markers to data=0
 
 [Recent Files]
 0="C:\Users\bekes\Documents\FRT\2D\20181212_TOKOL_SZUCS.18\1212-SZUCS-ENDU01"
-1="C:\Users\bekes\Documents\FRT\2D\20181104_TOKOL_SZUCS.18\1104-SZUCS-ENDU01"
-2="C:\Users\bekes\Documents\FRT\2D\20181212_TOKOL_SZUCS.18\1212-SZUCS-ENDU02"
+1="C:\Users\bekes\Documents\FRT\2D\20181212_TOKOL_SZUCS.18\1212-SZUCS-ENDU02"
+2="C:\Users\bekes\Documents\FRT\2D\20181104_TOKOL_SZUCS.18\1104-SZUCS-ENDU01"
 3="C:\Users\bekes\Documents\FRT\2D\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU01"
 4="C:\Users\bekes\Documents\FRT\2D\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU02"
 5="C:\Users\bekes\Documents\FRT\2D\20181011_TOKOL_SZUCS.18\1110-SZUCS-ENDU01"
@@ -123,27 +123,26 @@ Fix markers to data=0
 
 [MRU_Template]
 0="02_Brake"
-1="2D Overview"
-2="01_SteeringThrottle"
+1="DamperHist_RideHeight"
+2="IDIQ"
 3="Overview"
-4="Roll_Pitch"
+4="CellTemp"
 
 [MRU_TrackMode]
 0="TrackMode.tms"
 
 [MRU_XY-Plot]
 0="fek.xys"
-1="bolintmerevseg.xys"
-2="roll_rear.xys"
-3="rollmerevseg.xys"
-4="IDIQ4.xys"
+1="steeringangle.xys"
+2="2D GPS Yaw.xys"
+3="bolintmerevseg.xys"
+4="roll_rear.xys"
 
 [MRU_MinMax]
-0="brakpress.mms"
-1="TestDataTemplate.mms"
+0="TestDataTemplate.mms"
+1="brakpress.mms"
 2="electric.mms"
 3="steeringthrottle.mms"
-4="a.mms"
 
 [MRU_Histogram]
 0="brake.sts"

@@ -33,7 +33,7 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=Iq4
-Lower=-0,05
+Lower=-0,5
 Upper=0,5
 Range=100
 AutoPosition=0

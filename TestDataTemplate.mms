@@ -6,8 +6,8 @@ Use phases=0
 Conditions file=TestDataTemplate.pct
 
 [Export]
-Export file name=1212template
-Type=2
+Export file name=proba
+Type=1
 Append to Excel sheet=1
 Insert lines=0
 
@@ -21,6 +21,8 @@ INT_Throttle=0,0,0,1,0,0,1,0
 INT_BrakePos=0,0,0,1,0,0,1,0
 INT_Brake_Pressure_Front=0,0,0,1,0,0,1,0
 INT_Brake_Pressure_Rear=0,0,0,1,0,0,1,0
+Brake_Pressure_Front_Corrected=0,1,0,1,0,0,0,0
+Brake_Pressure_Rear_Corrected=0,1,0,1,0,0,0,0
 INT_SlipRatio_1_Traction=0,0,0,1,0,0,1,0
 INT_SlipRatio_2_Traction=0,0,0,1,0,0,1,0
 INT_SlipRatio_3_Traction=0,0,0,1,0,0,1,0
