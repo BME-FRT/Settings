@@ -20,8 +20,8 @@ DynaShrinkMode=0
 [Analyzer]
 Measuring all channels=0
 Relative values=0
-Last Scans=520780
-Last seconds="325,4875"
+Last Scans=29718
+Last seconds="18,57375"
 Last Histogram="Damper_Vel3.sts"
 Sort type=4
 Color scheme switch=1
@@ -32,29 +32,29 @@ Show phases=0
 Last CalMode=3
 Last CalFileName DataRoot=""
 Last CalFileName Event=""
-Last CalFileName Measurement="1212-SZUCS-ENDU01.CAL"
-Last CalFileName Software="INT_Throttle.CAL"
+Last CalFileName Measurement="1102-SZUCS-ENDURANCE8101.CAL"
+Last CalFileName Software="YAW.CAL"
 Last CalFileName SWSubFolder=""
-Orig Template="02_Brake"
-Previous Geometry Orig Template="DamperHist_RideHeight"
-Last Session Orig Template="02_Brake"
+Orig Template="Overview"
+Previous Geometry Orig Template="YAW"
+Last Session Orig Template="Overview"
 Search calc channel=""
 Cal sort type=0
 SW SubFolder=""
-Last MinMax="TestDataTemplate.mms"
-Last XY-Plot="fek.xys"
+Last MinMax="YAW.mms"
+Last XY-Plot="GG.xys"
 Last Track mode="TrackMode.tms"
 GPSLineFile=""
 Last FFT="miez.fft"
-Last Export="damper_validacio.exs"
-UserName="Nándi"
+Last Export="GPSmap.exs"
+UserName="bekes"
 
 [Options]
 KeyPanningDirection=1
 StartTimeDiff=0
 StartTimeDiff window=0
 Distance plot=0
-Complete lap=0
+Complete lap=1
 Selection start=2
 Auto synchronize=1
 Auto switch distance=0
@@ -110,39 +110,40 @@ Print Excel direct=0
 Fix markers to data=0
 
 [Recent Files]
-0="C:\Users\bekes\Documents\FRT\2D\20181212_TOKOL_SZUCS.18\1212-SZUCS-ENDU01"
-1="C:\Users\bekes\Documents\FRT\2D\20181212_TOKOL_SZUCS.18\1212-SZUCS-ENDU02"
-2="C:\Users\bekes\Documents\FRT\2D\20181104_TOKOL_SZUCS.18\1104-SZUCS-ENDU01"
-3="C:\Users\bekes\Documents\FRT\2D\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU01"
-4="C:\Users\bekes\Documents\FRT\2D\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU02"
-5="C:\Users\bekes\Documents\FRT\2D\20181011_TOKOL_SZUCS.18\1110-SZUCS-ENDU01"
-6="C:\Users\bekes\Documents\FRT\2D\20181011_TOKOL_SZUCS.18\1118-SZUCS-ENDU01"
-7="C:\Users\bekes\Documents\FRT\2D\20181031_TOKOL_SZUCS\1101-SZUCS-ENDURANCE8101"
-8="C:\Users\bekes\Documents\FRT\2D\20181031_TOKOL_SZUCS\1103-SZUCS-ENDURANCE8101"
-9="C:\Users\bekes\Documents\FRT\2D\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
+0="C:\Users\bekes\Documents\FRT\Log\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
+1="C:\Users\bekes\Documents\FRT\Log\szucs_2019_02_24_yawcontrol\0224-REC-008-02"
+2="C:\Users\bekes\Documents\FRT\Log\szucs_19_02_24_pow_lim_60.19\0224-REC-008-01"
+3="C:\Users\bekes\Documents\FRT\Log\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU01"
+4="C:\Users\bekes\Documents\FRT\Log\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU02"
+5="C:\Users\bekes\Documents\FRT\Log\2019_02_16_powerlimiter.19\0216-REC-008-01"
+6="C:\Users\bekes\Documents\FRT\Log\2019_02_16_powerlimiter.19\0216-REC-008-02"
+7="C:\Users\bekes\Documents\FRT\Log\2019_02_16_80kwpowerlimiter.19\0216-REC-008-02"
+8="C:\Users\bekes\Documents\FRT\Log\2019_02_16_fxdivider.19\0216-REC-008-01"
+9="C:\Users\bekes\Documents\FRT\2D\20181212_TOKOL_SZUCS.18\1212-SZUCS-ENDU01"
 
 [MRU_Template]
-0="02_Brake"
-1="DamperHist_RideHeight"
-2="IDIQ"
-3="Overview"
-4="CellTemp"
+0="YAW"
+1="Overview"
+2="traction"
+3="MotCharacteristic"
+4="IDIQ"
 
 [MRU_TrackMode]
 0="TrackMode.tms"
 
 [MRU_XY-Plot]
-0="fek.xys"
-1="steeringangle.xys"
-2="2D GPS Yaw.xys"
-3="bolintmerevseg.xys"
-4="roll_rear.xys"
+0="GG.xys"
+1="aero map.xys"
+2="fek.xys"
+3="motorchar4.xys"
+4="motorchar3.xys"
 
 [MRU_MinMax]
-0="TestDataTemplate.mms"
-1="brakpress.mms"
-2="electric.mms"
-3="steeringthrottle.mms"
+0="YAW.mms"
+1="OS_US.mms"
+2="TestDataTemplate.mms"
+3="brakpress.mms"
+4="electric.mms"
 
 [MRU_Histogram]
 0="brake.sts"
@@ -155,9 +156,10 @@ Fix markers to data=0
 0="miez.fft"
 
 [MRU_Export]
-0="damper_validacio.exs"
-1="0920.exs"
-2="0920-REC-008-02.exs"
+0="GPSmap.exs"
+1="damper_validacio.exs"
+2="0920.exs"
+3="0920-REC-008-02.exs"
 
 [History]
 0="C:\TMP"

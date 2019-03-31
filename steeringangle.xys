@@ -32,12 +32,34 @@ File type=Active
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Curvature
-Lower=-1,87660727001351
-Upper=2,04926914051711
-Range=0,20654019978262
+Channel name=Steering_Angle_1
+Lower=0
+Upper=100
+Range=244,140625
 AutoPosition=1
-AutoStretch=1
+AutoStretch=0
+Show regression line=0
+Show reference regression line=0
+Regression polynom degree=3
+Clip regression polynom=0
+Regression polynom line width=1
+Regression polynom color files=1
+Regression polynom uni color=255
+Clip reference regression polynom=0
+Show accumulation numbers=0
+Show accumulation colors=0
+Accumulation min=0
+Accumulation max=100
+Accumulation steps X=10
+Accumulation steps Y=10
+
+[Y-Channel 1]
+Channel name=Steering_Angle_1
+Lower=0
+Upper=100
+Range=100
+AutoPosition=1
+AutoStretch=0
 Show regression line=0
 Show reference regression line=0
 Regression polynom degree=1
@@ -54,14 +76,14 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=Steering_Angle_2
+0=Wheel_Angle
 
 [Y-Channels]
-0=Curvature
+0=Steering_Angle_1
 
 [X-Channel 0]
-Channel name=Steering_Angle_2
-Lower=-151,892386073
-Upper=83,6996149886623
-Range=6,24090579184207
+Channel name=Wheel_Angle
+Lower=0
+Upper=100
+Range=244,140625
 

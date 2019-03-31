@@ -52,7 +52,7 @@ Accumulation min=0
 Accumulation max=100
 Accumulation steps X=10
 Accumulation steps Y=10
-Reference regression polynom text=- 1.70096238843246x + 25.4228159791416 
+Reference regression polynom text=- 1.70096238843246x + 25.4228159791416
 
 [X-Channels]
 0=Acceleration_X_Front_Filtered
@@ -65,7 +65,4 @@ Channel name=Acceleration_X_Front_Filtered
 Lower=-3
 Upper=3
 Range=0,212818840472683
-
-[File names]
-0=1214-SZUCS-ENDU01
 

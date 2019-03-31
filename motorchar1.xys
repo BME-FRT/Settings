@@ -15,8 +15,8 @@ Y-Channels joined=0
 Down sampling=0
 
 [Phase conditions]
-Use phases=0
-Conditions file=fek.pct
+Use phases=1
+Conditions file=motorchar1.pct
 
 [Graphics]
 Graphic type=Pixel
@@ -32,9 +32,9 @@ File type=Active
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Brake_Pressure_Rear_Corrected
-Lower=-5,7677072572314
-Upper=49,2446410123967
+Channel name=AMK_TorqueLimitPositive_1
+Lower=-5
+Upper=25
 Range=30
 AutoPosition=0
 AutoStretch=0
@@ -43,8 +43,8 @@ Show reference regression line=0
 Regression polynom degree=1
 Clip regression polynom=0
 Regression polynom line width=1
-Regression polynom color files=0
-Regression polynom uni color=65280
+Regression polynom color files=1
+Regression polynom uni color=255
 Clip reference regression polynom=0
 Show accumulation numbers=0
 Show accumulation colors=0
@@ -54,14 +54,14 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=Brake_Pressure_Front_Corrected
+0=AMK_Actualvelocity_1
 
 [Y-Channels]
-0=Brake_Pressure_Rear_Corrected
+0=AMK_TorqueLimitPositive_1
 
 [X-Channel 0]
-Channel name=Brake_Pressure_Front_Corrected
-Lower=-2,06106954225352
-Upper=46,9389854753521
-Range=30
+Channel name=AMK_Actualvelocity_1
+Lower=0
+Upper=25000
+Range=25000
 
