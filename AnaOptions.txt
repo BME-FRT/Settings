@@ -12,6 +12,10 @@ drag_calc=1
 IDIQ=1
 Roll_Pitch=1
 SOC_GG_MCUTEMP=1
+traction=1
+YAW=1
+MotCharacteristic=1
+CellVoltage=1
 
 [HotTemplateList]
 PositionAtTop=0
@@ -20,9 +24,9 @@ DynaShrinkMode=0
 [Analyzer]
 Measuring all channels=0
 Relative values=0
-Last Scans=29718
-Last seconds="18,57375"
-Last Histogram="Damper_Vel3.sts"
+Last Scans=107264
+Last seconds="67,04"
+Last Histogram="Throttttle.sts"
 Sort type=4
 Color scheme switch=1
 Sort group=1
@@ -32,21 +36,21 @@ Show phases=0
 Last CalMode=3
 Last CalFileName DataRoot=""
 Last CalFileName Event=""
-Last CalFileName Measurement="1102-SZUCS-ENDURANCE8101.CAL"
-Last CalFileName Software="YAW.CAL"
+Last CalFileName Measurement="20190518PROBALGATASMEGINT01.CAL"
+Last CalFileName Software="INT_Throttle.CAL"
 Last CalFileName SWSubFolder=""
-Orig Template="Overview"
-Previous Geometry Orig Template="YAW"
-Last Session Orig Template="Overview"
+Orig Template="02_Brake"
+Previous Geometry Orig Template="02_Brake"
+Last Session Orig Template="02_Brake"
 Search calc channel=""
 Cal sort type=0
 SW SubFolder=""
-Last MinMax="YAW.mms"
-Last XY-Plot="GG.xys"
+Last MinMax="brakpress.mms"
+Last XY-Plot="brakeforcevspress.xys"
 Last Track mode="TrackMode.tms"
 GPSLineFile=""
 Last FFT="miez.fft"
-Last Export="GPSmap.exs"
+Last Export="R.exs"
 UserName="bekes"
 
 [Options]
@@ -110,39 +114,39 @@ Print Excel direct=0
 Fix markers to data=0
 
 [Recent Files]
-0="C:\Users\bekes\Documents\FRT\Log\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
-1="C:\Users\bekes\Documents\FRT\Log\szucs_2019_02_24_yawcontrol\0224-REC-008-02"
-2="C:\Users\bekes\Documents\FRT\Log\szucs_19_02_24_pow_lim_60.19\0224-REC-008-01"
-3="C:\Users\bekes\Documents\FRT\Log\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU01"
-4="C:\Users\bekes\Documents\FRT\Log\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU02"
-5="C:\Users\bekes\Documents\FRT\Log\2019_02_16_powerlimiter.19\0216-REC-008-01"
-6="C:\Users\bekes\Documents\FRT\Log\2019_02_16_powerlimiter.19\0216-REC-008-02"
-7="C:\Users\bekes\Documents\FRT\Log\2019_02_16_80kwpowerlimiter.19\0216-REC-008-02"
-8="C:\Users\bekes\Documents\FRT\Log\2019_02_16_fxdivider.19\0216-REC-008-01"
-9="C:\Users\bekes\Documents\FRT\2D\20181212_TOKOL_SZUCS.18\1212-SZUCS-ENDU01"
+0="C:\Users\bekes\Documents\FRT\Log\proba_event_mappa\20190518PROBALGATASMEGINT01"
+1="C:\Users\bekes\Documents\FRT\Log\proba_event_mappa\20190518PROBALGATAS01"
+2="C:\Users\bekes\Documents\FRT\Log\proba_event_mappa\20190518PROBAPROBA01"
+3="C:\Users\bekes\Documents\FRT\Log\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
+4="C:\Users\bekes\Documents\FRT\Log\20181031_TOKOL_SZUCS\1101-SZUCS-ENDURANCE8101"
+5="C:\Users\bekes\Documents\FRT\Log\20181031_TOKOL_SZUCS\1103-SZUCS-ENDURANCE8101"
+6="C:\Users\bekes\Documents\FRT\Log\20190508_BURIAN_LACZHAZA.19\0510-RUN101"
+7="C:\Users\bekes\Documents\FRT\Log\szucs_2019_02_24_yawcontrol\0224-REC-008-02"
+8="C:\Users\bekes\Documents\FRT\Log\2019_02_16_80kwpowerlimiter.19\0216-REC-008-02"
+9="C:\Users\bekes\Documents\FRT\Log\2019_02_16_powerlimiter.19\0216-REC-008-01"
 
 [MRU_Template]
-0="YAW"
+0="02_Brake"
 1="Overview"
-2="traction"
-3="MotCharacteristic"
+2="Roll_Pitch"
+3="traction"
 4="IDIQ"
 
 [MRU_TrackMode]
 0="TrackMode.tms"
 
 [MRU_XY-Plot]
-0="GG.xys"
-1="aero map.xys"
+0="brakeforcevspress.xys"
+1="brakeforce_vs_ax.xys"
 2="fek.xys"
 3="motorchar4.xys"
 4="motorchar3.xys"
 
 [MRU_MinMax]
-0="YAW.mms"
-1="OS_US.mms"
-2="TestDataTemplate.mms"
-3="brakpress.mms"
+0="brakpress.mms"
+1="TestDataTemplate.mms"
+2="YAW.mms"
+3="OS_US.mms"
 4="electric.mms"
 
 [MRU_Histogram]
@@ -156,17 +160,18 @@ Fix markers to data=0
 0="miez.fft"
 
 [MRU_Export]
-0="GPSmap.exs"
-1="damper_validacio.exs"
-2="0920.exs"
-3="0920-REC-008-02.exs"
+0="R.exs"
+1="tr.exs"
+2="xy.exs"
+3="GPSmap.exs"
 
 [History]
 0="C:\TMP"
 
 [History\Export Ascii]
-0="C:\Users\bekes\Documents\FRT"
+0="C:\Users\bekes\Documents\Mecha4\R_hf"
 1="<TempDir>"
+2="<DataDir>"
 
 [History\Export MinMax]
 0="C:\Users\bekes\Documents\FRT"
