@@ -6,8 +6,8 @@ Use phases=0
 Conditions file=TestDataTemplate.pct
 
 [Export]
-Export file name=proba
-Type=1
+Export file name=0709_testdata
+Type=2
 Append to Excel sheet=1
 Insert lines=0
 
@@ -18,7 +18,7 @@ INT_Coast=0,0,0,1,0,0,1,0
 INT_SteeringAngle=0,0,0,1,0,0,1,0
 INT_ThrottleSteering=0,0,0,1,0,0,1,0
 INT_Throttle=0,0,0,1,0,0,1,0
-INT_BrakePos=0,0,0,1,0,0,1,0
+INT_BrakeForce=0,0,0,1,0,0,1,0
 INT_Brake_Pressure_Front=0,0,0,1,0,0,1,0
 INT_Brake_Pressure_Rear=0,0,0,1,0,0,1,0
 Brake_Pressure_Front_Corrected=0,1,0,1,0,0,0,0
@@ -43,9 +43,9 @@ INT_Iq2=0,0,0,1,0,0,1,0
 INT_Iq3=0,0,0,1,0,0,1,0
 INT_Iq4=0,0,0,1,0,0,1,0
 State_of_Charge=0,0,0,1,0,0,1,0
-Energy_Electric_pos=0,0,0,1,0,0,1,0
+E_Electric_pos=0,0,0,1,0,0,1,0
 E_motors=0,0,0,1,0,0,1,0
 Energy_Useful=0,0,0,1,0,0,1,0
-Energy_RollRes=0,0,0,1,0,0,1,0
+E_RollRes=0,0,0,1,0,0,1,0
 Energy_Drag=0,0,0,1,0,0,1,0
 

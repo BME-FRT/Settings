@@ -15,16 +15,16 @@ Y-Channels joined=0
 Down sampling=0
 
 [Phase conditions]
-Use phases=0
+Use phases=1
 Conditions file=GG.pct
 
 [Graphics]
-Graphic type=Pixel
+Graphic type=Circle
 Line threshold=10
-Pen width=0
+Pen width=1
 Pen style=Solid
-Circle radius=2
-Fill circles=0
+Circle radius=4
+Fill circles=1
 Cross radius=2
 
 [Files]

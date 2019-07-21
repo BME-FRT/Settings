@@ -24,8 +24,8 @@ DynaShrinkMode=0
 [Analyzer]
 Measuring all channels=0
 Relative values=0
-Last Scans=107264
-Last seconds="67,04"
+Last Scans=5169536
+Last seconds="3230,96"
 Last Histogram="Throttttle.sts"
 Sort type=4
 Color scheme switch=1
@@ -36,22 +36,23 @@ Show phases=0
 Last CalMode=3
 Last CalFileName DataRoot=""
 Last CalFileName Event=""
-Last CalFileName Measurement="20190518PROBALGATASMEGINT01.CAL"
-Last CalFileName Software="INT_Throttle.CAL"
+Last CalFileName Measurement="0709-RED-001-02.CAL"
+Last CalFileName Software="Damper.CAL"
 Last CalFileName SWSubFolder=""
-Orig Template="02_Brake"
-Previous Geometry Orig Template="02_Brake"
-Last Session Orig Template="02_Brake"
+Orig Template="Roll_Pitch"
+Previous Geometry Orig Template="Overview"
+Last Session Orig Template="Roll_Pitch"
 Search calc channel=""
 Cal sort type=0
 SW SubFolder=""
-Last MinMax="brakpress.mms"
-Last XY-Plot="brakeforcevspress.xys"
-Last Track mode="TrackMode.tms"
+Last MinMax="YAW.mms"
+Last XY-Plot="bolintmerevseg.xys"
+Last Track mode="slalom.tms"
 GPSLineFile=""
 Last FFT="miez.fft"
-Last Export="R.exs"
+Last Export="tr.exs"
 UserName="bekes"
+File sort type=2
 
 [Options]
 KeyPanningDirection=1
@@ -114,33 +115,34 @@ Print Excel direct=0
 Fix markers to data=0
 
 [Recent Files]
-0="C:\Users\bekes\Documents\FRT\Log\proba_event_mappa\20190518PROBALGATASMEGINT01"
-1="C:\Users\bekes\Documents\FRT\Log\proba_event_mappa\20190518PROBALGATAS01"
-2="C:\Users\bekes\Documents\FRT\Log\proba_event_mappa\20190518PROBAPROBA01"
-3="C:\Users\bekes\Documents\FRT\Log\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
-4="C:\Users\bekes\Documents\FRT\Log\20181031_TOKOL_SZUCS\1101-SZUCS-ENDURANCE8101"
-5="C:\Users\bekes\Documents\FRT\Log\20181031_TOKOL_SZUCS\1103-SZUCS-ENDURANCE8101"
-6="C:\Users\bekes\Documents\FRT\Log\20190508_BURIAN_LACZHAZA.19\0510-RUN101"
-7="C:\Users\bekes\Documents\FRT\Log\szucs_2019_02_24_yawcontrol\0224-REC-008-02"
-8="C:\Users\bekes\Documents\FRT\Log\2019_02_16_80kwpowerlimiter.19\0216-REC-008-02"
-9="C:\Users\bekes\Documents\FRT\Log\2019_02_16_powerlimiter.19\0216-REC-008-01"
+0="C:\Users\bekes\Documents\FRT\Log\190709_ZALAZONE_SZUCS_FODOR_ENDU.19\0709-RED-001-02"
+1="C:\Users\bekes\Documents\FRT\Log\szucs_2019_02_24_yawcontrol\0224-REC-008-02"
+2="C:\Users\bekes\Documents\FRT\Log\190710_ZAZAZONE_BALAZS_KARDOS_SKIDPAD_ACCELERATION.19\0711-RED-001-01"
+3="C:\Users\bekes\Documents\FRT\Log\190704_ZALAZONE_SZUCS_KARDOS.19\0704-RED-001-RUN101"
+4="C:\Users\bekes\Documents\FRT\Log\190706_GÖNYÜ_SKIDPAD_KARDOS_SZUCS_BALAZS.19\0706-RED-001-RUN101"
+5="C:\Users\bekes\Documents\FRT\Log\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU01"
+6="C:\Users\bekes\Documents\FRT\Log\20181212_TOKOL_SZUCS.18\1212-SZUCS-ENDU01"
+7="C:\Users\bekes\Documents\FRT\Log\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
+8="C:\Users\bekes\Documents\FRT\Log\190706_günyi_szucs_kardos_regbrake_yaw.19\0706-RED-001-RUN101"
+9="C:\Users\bekes\Documents\FRT\Log\190622_SZUCS_BURIAN_LACZHAZA.19\0622-RUN101"
 
 [MRU_Template]
-0="02_Brake"
+0="Roll_Pitch"
 1="Overview"
-2="Roll_Pitch"
-3="traction"
-4="IDIQ"
+2="YAW"
+3="02_Brake"
+4="MotCharacteristic"
 
 [MRU_TrackMode]
-0="TrackMode.tms"
+0="slalom.tms"
+1="TrackMode.tms"
 
 [MRU_XY-Plot]
-0="brakeforcevspress.xys"
-1="brakeforce_vs_ax.xys"
-2="fek.xys"
-3="motorchar4.xys"
-4="motorchar3.xys"
+0="bolintmerevseg.xys"
+1="roll_rear.xys"
+2="rollmerevseg.xys"
+3="brake_curve.xys"
+4="brakeforcevspress.xys"
 
 [MRU_MinMax]
 0="brakpress.mms"
@@ -160,22 +162,24 @@ Fix markers to data=0
 0="miez.fft"
 
 [MRU_Export]
-0="R.exs"
-1="tr.exs"
-2="xy.exs"
-3="GPSmap.exs"
+0="tr.exs"
+1="brake.exs"
+2="R.exs"
+3="xy.exs"
+4="GPSmap.exs"
 
 [History]
 0="C:\TMP"
 
 [History\Export Ascii]
-0="C:\Users\bekes\Documents\Mecha4\R_hf"
-1="<TempDir>"
-2="<DataDir>"
+0="<DataDir>"
+1="<DataDir>"
+2="<TempDir>"
 
 [History\Export MinMax]
-0="C:\Users\bekes\Documents\FRT"
-1="C:\TMP"
+0="<DataDir>"
+1="C:\Users\bekes\Documents\FRT"
+2="C:\TMP"
 
 [MultiCircuit options]
 Color auto=1
@@ -191,7 +195,7 @@ Ignore color active=0
 Track color=16711935
 Selection color=65535
 Positions size=4
-Section color=0
+Section color=4259584
 Show flag=1
 Show segments=1
 Show corners=1

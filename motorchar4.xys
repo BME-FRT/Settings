@@ -33,7 +33,7 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=AMK_TorqueLimitPositive_4
-Lower=-5
+Lower=0
 Upper=25
 Range=30
 AutoPosition=0
