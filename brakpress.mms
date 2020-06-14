@@ -2,7 +2,7 @@
 Show alarms=0
 
 [Phase conditions]
-Use phases=0
+Use phases=1
 Conditions file=brakpress.pct
 
 [Export]

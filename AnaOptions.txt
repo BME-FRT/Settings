@@ -1,65 +1,48 @@
 [Template Favorites]
-2D Overview=1
-Overview=1
-04_Energy=1
-01_SteeringThrottle=1
-02_Brake=1
-03_Slip=1
-CellTemp=1
-Compare_Speed_Steering_Throttle=1
-DamperHist_RideHeight=1
-drag_calc=1
-IDIQ=1
-Roll_Pitch=1
-SOC_GG_MCUTEMP=1
-traction=1
-YAW=1
-MotCharacteristic=1
-CellVoltage=1
+Power=1
 
 [HotTemplateList]
 PositionAtTop=0
 DynaShrinkMode=0
 
 [Analyzer]
-Measuring all channels=0
-Relative values=0
-Last Scans=5169536
-Last seconds="3230,96"
-Last Histogram="Throttttle.sts"
+UserName="bekes"
+Last Scans=146899
+Last seconds="91,811875"
 Sort type=4
-Color scheme switch=1
-Sort group=1
+Color scheme switch=2
+Sort group=2
 Show Tips at start=0
 Replace current=1
 Show phases=0
 Last CalMode=3
+Orig Template="Power"
+Previous Geometry Orig Template="04_Energy"
+Last Session Orig Template="Power"
+Measuring all channels=0
+Relative values=0
 Last CalFileName DataRoot=""
 Last CalFileName Event=""
 Last CalFileName Measurement="0709-RED-001-02.CAL"
-Last CalFileName Software="Damper.CAL"
+Last CalFileName Software="YAW.CAL"
 Last CalFileName SWSubFolder=""
-Orig Template="Roll_Pitch"
-Previous Geometry Orig Template="Overview"
-Last Session Orig Template="Roll_Pitch"
 Search calc channel=""
-Cal sort type=0
+Cal sort type=2
 SW SubFolder=""
-Last MinMax="YAW.mms"
-Last XY-Plot="bolintmerevseg.xys"
-Last Track mode="slalom.tms"
-GPSLineFile=""
-Last FFT="miez.fft"
-Last Export="tr.exs"
-UserName="bekes"
-File sort type=2
+Last MinMax="electric.mms"
+Last Data window="proba.dwn"
+Last StatusBits="StatusBits1.sbt"
+Last ChannelBitMaps="ChannelBitMaps1.cbm"
+Last XY-Plot="motorchar4.xys"
+Last Histogram="Histo1.sts"
+Last Export="xy.exs"
 
 [Options]
 KeyPanningDirection=1
 StartTimeDiff=0
 StartTimeDiff window=0
 Distance plot=0
-Complete lap=1
+Complete lap=0
 Selection start=2
 Auto synchronize=1
 Auto switch distance=0
@@ -69,7 +52,7 @@ Meters lap relative=0
 Scaling screen relative=0
 Time format=1
 Last session geometry=1
-Start template="Overview"
+Start template="Power"
 RiderColorCharacter1=""
 RiderColorCharacter2=""
 RiderColor1A=255
@@ -87,7 +70,6 @@ Print TrackMode white color=1
 Print Circuit white color=1
 Print FFT white color=1
 Print white channels color=0
-Write lap times auto=1
 MV jump auto=0
 Set cursor to center=0
 Auto convert measurement=0
@@ -95,6 +77,7 @@ Saturated channel colors=0
 Reposition mouse=0
 Activate overview=1
 Reload without confirmation=1
+Fix markers to data=0
 Moving grid first=1
 Clipping type=0
 Show window functions=0
@@ -102,100 +85,122 @@ Template content V_st=0
 Template content Linked=0
 Alarm circles filled=1
 Show Channel Values Hint=1
-Show Channel Values Hint AltU=1
+Show Channel Values Hint AltU=0
 Draw XYPlots buffered=1
 Draw XYPlots interruptable=1
 Ignore Local Extrema at bigger ZoomOut=1
-Ignore All at bigger ZoomOut=1
+Ignore All at bigger ZoomOut=0
 Draw Circles at RecTime at higher ZoomIn=1
 Smart drawing=0
 Vertical mouse zoom=1
 Mouse move in measuring=0
 Print Excel direct=0
-Fix markers to data=0
 
 [Recent Files]
 0="C:\Users\bekes\Documents\FRT\Log\190709_ZALAZONE_SZUCS_FODOR_ENDU.19\0709-RED-001-02"
-1="C:\Users\bekes\Documents\FRT\Log\szucs_2019_02_24_yawcontrol\0224-REC-008-02"
-2="C:\Users\bekes\Documents\FRT\Log\190710_ZAZAZONE_BALAZS_KARDOS_SKIDPAD_ACCELERATION.19\0711-RED-001-01"
-3="C:\Users\bekes\Documents\FRT\Log\190704_ZALAZONE_SZUCS_KARDOS.19\0704-RED-001-RUN101"
-4="C:\Users\bekes\Documents\FRT\Log\190706_GÖNYÜ_SKIDPAD_KARDOS_SZUCS_BALAZS.19\0706-RED-001-RUN101"
-5="C:\Users\bekes\Documents\FRT\Log\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU01"
-6="C:\Users\bekes\Documents\FRT\Log\20181212_TOKOL_SZUCS.18\1212-SZUCS-ENDU01"
-7="C:\Users\bekes\Documents\FRT\Log\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
-8="C:\Users\bekes\Documents\FRT\Log\190706_günyi_szucs_kardos_regbrake_yaw.19\0706-RED-001-RUN101"
-9="C:\Users\bekes\Documents\FRT\Log\190622_SZUCS_BURIAN_LACZHAZA.19\0622-RUN101"
+1="C:\Users\bekes\Documents\FRT\Log\20190522_KARDOS_SZUCS_TOKOL.19\0522-RED-001-RUN101"
+2="C:\Users\bekes\Documents\FRT\Log\szucs_2019_02_24_yawcontrol\0224-REC-008-02"
+3="C:\Users\bekes\Documents\FRT\Log\szucs_19_02_24_pow_lim_60.19\0224-REC-008-01"
+4="C:\Users\bekes\Documents\FRT\Log\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
+5="C:\Users\bekes\Documents\FRT\Log\20190602_SZUCS_KARDOS_TOKOL.19\0602-RED-001-RUN201"
+6="C:\Users\bekes\Documents\FRT\Log\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU01"
+7="C:\Users\bekes\Documents\FRT\Log\2019_02_16_80kwpowerlimiter.19\0216-REC-008-02"
+8="C:\Users\bekes\Documents\FRT\Log\190710_ZAZAZONE_BALAZS_KARDOS_SKIDPAD_ACCELERATION.19\0711-RED-001-01"
+9="C:\Users\bekes\Documents\FRT\Log\190706_günyi_szucs_kardos_regbrake_yaw.19\0706-RED-001-RUN101"
 
 [MRU_Template]
-0="Roll_Pitch"
-1="Overview"
-2="YAW"
-3="02_Brake"
-4="MotCharacteristic"
-
-[MRU_TrackMode]
-0="slalom.tms"
-1="TrackMode.tms"
+0="Power"
+1="04_Energy"
+2="MotCharacteristic"
+3="Overview"
+4="02_Brake"
 
 [MRU_XY-Plot]
-0="bolintmerevseg.xys"
-1="roll_rear.xys"
-2="rollmerevseg.xys"
-3="brake_curve.xys"
-4="brakeforcevspress.xys"
+0="fekezes.xys"
+1="brakeforcevspress.xys"
+2="fek.xys"
 
 [MRU_MinMax]
-0="brakpress.mms"
+0="electric.mms"
 1="TestDataTemplate.mms"
-2="YAW.mms"
-3="OS_US.mms"
-4="electric.mms"
+2="table.mms"
+3="brakpress.mms"
+4="Engine.mms"
 
 [MRU_Histogram]
-0="brake.sts"
-1="Throttttle.sts"
-2="steering.sts"
-3="velocity.sts"
-4="Damper_Vel4.sts"
+0="Histo1.sts"
+1="Damper_Vel2.sts"
 
-[MRU_FFT]
-0="miez.fft"
+[MRU_DataWindow]
+0="proba.dwn"
 
 [MRU_Export]
-0="tr.exs"
-1="brake.exs"
-2="R.exs"
-3="xy.exs"
-4="GPSmap.exs"
+0="xy.exs"
+1="proba.exs"
 
-[History]
-0="C:\TMP"
+[MRU_StatusBits]
+0="StatusBits1.sbt"
+
+[MRU_ChannelBitMaps]
+0="ChannelBitMaps1.cbm"
 
 [History\Export Ascii]
-0="<DataDir>"
-1="<DataDir>"
+0="C:\Users\bekes\Documents\FRT\FRT_map\drivingcamp"
+1="C:\Users\bekes\Desktop"
 2="<TempDir>"
-
-[History\Export MinMax]
-0="<DataDir>"
-1="C:\Users\bekes\Documents\FRT"
-2="C:\TMP"
 
 [MultiCircuit options]
 Color auto=1
 Line width=1
 Use color channel=0
-Color channel="Damper_Travel_FL"
+Color channel=""
 Auto center by cross=1
 Ignore lower="0"
 Ignore upper="0"
 Ignore color active=0
 
+[Colors]
+MeasurementColors1=255
+MeasurementColors2=8421376
+MeasurementColors3=16711935
+MeasurementColors4=16711680
+MeasurementColors5=65535
+MeasurementColors6=32768
+MeasurementColors7=65280
+MeasurementColors8=8388736
+MeasurementColors9=128
+MeasurementColors10=255
+MeasurementColors11=16776960
+MeasurementColors12=16711935
+MeasurementColors13=16711680
+MeasurementColors14=65535
+MeasurementColors15=32768
+MeasurementColors16=65280
+MeasurementColors17=8388736
+MeasurementColors18=128
+MeasurementColors19=255
+MeasurementColors20=16776960
+MeasurementColors21=16711935
+MeasurementColors22=16711680
+MeasurementColors23=65535
+MeasurementColors24=32768
+MeasurementColors25=65280
+MeasurementColors26=8388736
+MeasurementColors27=128
+MeasurementColors28=255
+MeasurementColors29=16776960
+MeasurementColors30=16711935
+MeasurementColors31=16711680
+MeasurementColors32=65535
+MeasurementColors33=32768
+MeasurementColors34=65280
+MeasurementColors35=8388736
+
 [fCircuit]
 Track color=16711935
 Selection color=65535
 Positions size=4
-Section color=4259584
+Section color=0
 Show flag=1
 Show segments=1
 Show corners=1

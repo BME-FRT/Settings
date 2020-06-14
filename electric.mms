@@ -2,7 +2,7 @@
 Show alarms=0
 
 [Phase conditions]
-Use phases=0
+Use phases=1
 Conditions file=electric.pct
 
 [Export]
@@ -13,10 +13,10 @@ Insert lines=1
 
 [MinMax Channels]
 State_of_Charge=0,0,0,1,0,0,1,0
-Energy_Useful=0,0,0,1,0,0,1,0
-Energy_RollRes=0,0,0,1,0,0,1,0
-Energy_Drag=0,0,0,1,0,0,1,0
-Energy_Electr=0,0,0,1,0,0,1,0
-Energy_Electric_pos=0,0,0,1,0,0,1,0
-E_motors=0,0,0,1,0,0,1,0
+E_Useful=0,1,0,1,0,0,0,0
+E_RollRes=0,1,0,1,0,0,0,0
+E_Drag=0,1,0,1,0,0,0,0
+E_Electric=0,1,0,1,0,0,0,0
+E_Electric_pos=0,1,0,1,0,0,0,0
+E_motors=0,1,0,1,0,0,0,0
 
