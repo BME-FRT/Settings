@@ -7,35 +7,36 @@ DynaShrinkMode=0
 
 [Analyzer]
 UserName="bekes"
-Last Scans=146899
-Last seconds="91,811875"
+Last Scans=4434149
+Last seconds="2771,343125"
 Sort type=4
-Color scheme switch=2
+Color scheme switch=1
 Sort group=2
 Show Tips at start=0
 Replace current=1
 Show phases=0
 Last CalMode=3
-Orig Template="Power"
-Previous Geometry Orig Template="04_Energy"
-Last Session Orig Template="Power"
+Orig Template="driver"
+Previous Geometry Orig Template="Overview"
+Last Session Orig Template="driver"
 Measuring all channels=0
 Relative values=0
 Last CalFileName DataRoot=""
 Last CalFileName Event=""
-Last CalFileName Measurement="0709-RED-001-02.CAL"
-Last CalFileName Software="YAW.CAL"
+Last CalFileName Measurement="0806-SZUCS-KARDOS-ENDU01.CAL"
+Last CalFileName Software="HV Accumulator Cell Temperautre.CAL"
 Last CalFileName SWSubFolder=""
 Search calc channel=""
 Cal sort type=2
 SW SubFolder=""
-Last MinMax="electric.mms"
+Last MinMax="TestDataTemplate.mms"
 Last Data window="proba.dwn"
 Last StatusBits="StatusBits1.sbt"
 Last ChannelBitMaps="ChannelBitMaps1.cbm"
-Last XY-Plot="motorchar4.xys"
+Last XY-Plot="GG.xys"
 Last Histogram="Histo1.sts"
 Last Export="xy.exs"
+GPSLineFile="C:\Users\bekes\Documents\FRT\Log\200624_T5_HRING.20\Hungaroring.line"
 
 [Options]
 KeyPanningDirection=1
@@ -97,34 +98,36 @@ Mouse move in measuring=0
 Print Excel direct=0
 
 [Recent Files]
-0="C:\Users\bekes\Documents\FRT\Log\190709_ZALAZONE_SZUCS_FODOR_ENDU.19\0709-RED-001-02"
-1="C:\Users\bekes\Documents\FRT\Log\20190522_KARDOS_SZUCS_TOKOL.19\0522-RED-001-RUN101"
-2="C:\Users\bekes\Documents\FRT\Log\szucs_2019_02_24_yawcontrol\0224-REC-008-02"
-3="C:\Users\bekes\Documents\FRT\Log\szucs_19_02_24_pow_lim_60.19\0224-REC-008-01"
-4="C:\Users\bekes\Documents\FRT\Log\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
-5="C:\Users\bekes\Documents\FRT\Log\20190602_SZUCS_KARDOS_TOKOL.19\0602-RED-001-RUN201"
-6="C:\Users\bekes\Documents\FRT\Log\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU01"
-7="C:\Users\bekes\Documents\FRT\Log\2019_02_16_80kwpowerlimiter.19\0216-REC-008-02"
-8="C:\Users\bekes\Documents\FRT\Log\190710_ZAZAZONE_BALAZS_KARDOS_SKIDPAD_ACCELERATION.19\0711-RED-001-01"
-9="C:\Users\bekes\Documents\FRT\Log\190706_günyi_szucs_kardos_regbrake_yaw.19\0706-RED-001-RUN101"
+0="C:\Users\bekes\Documents\FRT\Log\20200806_T18_TOKOL.20\0806-SZUCS-KARDOS-ENDU01"
+1="C:\Users\bekes\Documents\FRT\Log\200624_T5_HRING.20\0624-SZUCS-ENDU-STAB01"
+2="C:\Users\bekes\Documents\FRT\Log\20200701_T7_TOKOL.20\0701-SZUCS-ENDU-AERO01"
+3="C:\Users\bekes\Documents\FRT\Log\20200703_T8_TOKOL.20\0703-KARDOS-ENDU-AERO01"
+4="C:\Users\bekes\Documents\FRT\Log\190710_ZAZAZONE_BALAZS_KARDOS_SKIDPAD_ACCELERATION.19\0711-RED-001-01"
+5="C:\Users\bekes\Documents\FRT\Log\190708_ZALAZONE_SZUCS.19\0708-RED-001-RUN101"
+6="C:\Users\bekes\Documents\FRT\Log\190707_GÖNYÜ_SZÜCS_YAWCONTROL.19\0707-RED-001-RUN101"
+7="C:\Users\bekes\Documents\FRT\Log\190706_günyi_szucs_kardos_regbrake_yaw.19\0706-RED-001-RUN101"
+8="C:\Users\bekes\Documents\FRT\Log\190704_ZALAZONE_SZUCS_KARDOS.19\0704-RED-001-RUN101"
+9="C:\Users\bekes\Documents\FRT\Log\190706_GÖNYÜ_SKIDPAD_KARDOS_SZUCS_BALAZS.19\0706-RED-001-RUN101"
 
 [MRU_Template]
-0="Power"
-1="04_Energy"
-2="MotCharacteristic"
-3="Overview"
-4="02_Brake"
+0="driver"
+1="Overview"
+2="YAW"
+3="02_Brake"
+4="Power"
 
 [MRU_XY-Plot]
-0="fekezes.xys"
-1="brakeforcevspress.xys"
-2="fek.xys"
+0="GG.xys"
+1="fek.xys"
+2="brake_curve.xys"
+3="brakeforcevspress.xys"
+4="fekezes.xys"
 
 [MRU_MinMax]
-0="electric.mms"
-1="TestDataTemplate.mms"
-2="table.mms"
-3="brakpress.mms"
+0="TestDataTemplate.mms"
+1="electric.mms"
+2="brakpress.mms"
+3="table.mms"
 4="Engine.mms"
 
 [MRU_Histogram]
@@ -145,9 +148,14 @@ Print Excel direct=0
 0="ChannelBitMaps1.cbm"
 
 [History\Export Ascii]
-0="C:\Users\bekes\Documents\FRT\FRT_map\drivingcamp"
-1="C:\Users\bekes\Desktop"
-2="<TempDir>"
+0="C:\Users\bekes\Documents\FRT\Simulink"
+1="<DataDir>"
+2="C:\Users\bekes\Desktop"
+3="<TempDir>"
+
+[History\Export MinMax]
+0="<DataDir>"
+1="C:\TMP"
 
 [MultiCircuit options]
 Color auto=1

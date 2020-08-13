@@ -32,10 +32,10 @@ File type=Active
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Acceleration_X_Front
-Lower=-3
-Upper=3
-Range=6
+Channel name=Acceleration_X_Rear
+Lower=-1,5
+Upper=1,5
+Range=3
 AutoPosition=0
 AutoStretch=0
 Show regression line=0
@@ -54,13 +54,13 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=Acceleration_Y_Front
+0=Acceleration_Y_Rear
 
 [Y-Channels]
-0=Acceleration_X_Front
+0=Acceleration_X_Rear
 
 [X-Channel 0]
-Channel name=Acceleration_Y_Front
+Channel name=Acceleration_Y_Rear
 Lower=-3
 Upper=3
 Range=6

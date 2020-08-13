@@ -2,11 +2,11 @@
 Show alarms=0
 
 [Phase conditions]
-Use phases=0
+Use phases=1
 Conditions file=TestDataTemplate.pct
 
 [Export]
-Export file name=0709_testdata
+Export file name=20t18_testdata
 Type=2
 Append to Excel sheet=1
 Insert lines=0
@@ -21,8 +21,8 @@ INT_Throttle=0,0,0,1,0,0,1,0
 INT_BrakeForce=0,0,0,1,0,0,1,0
 INT_Brake_Pressure_Front=0,0,0,1,0,0,1,0
 INT_Brake_Pressure_Rear=0,0,0,1,0,0,1,0
-Brake_Pressure_Front_Corrected=0,1,0,1,0,0,0,0
-Brake_Pressure_Rear_Corrected=0,1,0,1,0,0,0,0
+Brake_Pressure_Front=0,1,0,1,0,0,0,0
+Brake_Pressure_Rear=0,1,0,1,0,0,0,0
 INT_SlipRatio_1_Traction=0,0,0,1,0,0,1,0
 INT_SlipRatio_2_Traction=0,0,0,1,0,0,1,0
 INT_SlipRatio_3_Traction=0,0,0,1,0,0,1,0
@@ -45,7 +45,7 @@ INT_Iq4=0,0,0,1,0,0,1,0
 State_of_Charge=0,0,0,1,0,0,1,0
 E_Electric_pos=0,0,0,1,0,0,1,0
 E_motors=0,0,0,1,0,0,1,0
-Energy_Useful=0,0,0,1,0,0,1,0
+E_Useful=0,0,0,1,0,0,1,0
 E_RollRes=0,0,0,1,0,0,1,0
-Energy_Drag=0,0,0,1,0,0,1,0
+E_Drag=0,0,0,1,0,0,1,0
 
