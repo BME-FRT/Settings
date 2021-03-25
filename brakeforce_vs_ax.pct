@@ -1,6 +1,0 @@
-[Header]
-Name=brakeforce_vs_ax
-Logic type=0
-Delete phases smaller=0
-Condition count=0
-

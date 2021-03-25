@@ -31,8 +31,8 @@ Ignore color active=0
 
 [Y-Channel 0]
 Channel name=A_Lon_GPS
-Lower=-15
-Upper=11
+Lower=-13,4470134874759
+Upper=12,5529865125241
 Range=26
 AutoPosition=0
 AutoStretch=0
@@ -63,7 +63,7 @@ Y-Channels joined=0
 
 [X-Channel 0]
 Channel name=A_Lat_GPS
-Lower=-20
-Upper=20
+Lower=-21,5177065767285
+Upper=18,4822934232715
 Range=40
 

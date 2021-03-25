@@ -5,7 +5,7 @@ Version=1
 ColorAuto=1
 Color type=Uni
 Uni color=255
-Color channel=INT_SlipRatio_1_Traction
+Color channel=V_Front
 Ignore lower=-1000000
 Ignore upper=1000000
 Ignore color active=0
@@ -16,7 +16,7 @@ Down sampling=0
 
 [Phase conditions]
 Use phases=1
-Conditions file=roll_rear.pct
+Conditions file=bolintmerevseg.pct
 
 [Graphics]
 Graphic type=Pixel
@@ -32,19 +32,19 @@ File type=Active
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Roll_Angle_Rear
-Lower=0
-Upper=1
-Range=1,71900826446281
-AutoPosition=1
+Channel name=Pitch_Angle
+Lower=-0,689458703622222
+Upper=1,15694249235094
+Range=20
+AutoPosition=0
 AutoStretch=0
 Show regression line=0
 Show reference regression line=0
 Regression polynom degree=1
 Clip regression polynom=0
-Regression polynom line width=2
-Regression polynom color files=0
-Regression polynom uni color=65280
+Regression polynom line width=1
+Regression polynom color files=1
+Regression polynom uni color=255
 Clip reference regression polynom=0
 Show accumulation numbers=0
 Show accumulation colors=0
@@ -54,14 +54,14 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=Acceleration_Y_Rear_Filtered
+0=Acceleration_X_Rear
 
 [Y-Channels]
-0=Roll_Angle_Rear
+0=Pitch_Angle
 
 [X-Channel 0]
-Channel name=Acceleration_Y_Rear_Filtered
-Lower=-3
-Upper=3
-Range=6
+Channel name=Acceleration_X_Rear
+Lower=-1,8347909125
+Upper=1,8670231125
+Range=3
 

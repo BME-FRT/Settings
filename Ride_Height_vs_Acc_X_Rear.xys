@@ -4,8 +4,8 @@ Version=1
 [Color]
 ColorAuto=1
 Color type=Uni
-Uni color=16711680
-Color channel=V_Front
+Uni color=255
+Color channel=ValidSat
 Ignore lower=-1000000
 Ignore upper=1000000
 Ignore color active=0
@@ -16,7 +16,7 @@ Down sampling=0
 
 [Phase conditions]
 Use phases=1
-Conditions file=RideHeight - Ax.pct
+Conditions file=Ride_Height_vs_Acc_X_Rear.pct
 
 [Graphics]
 Graphic type=Pixel
@@ -33,18 +33,18 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=Ride_Height_Front
-Lower=-0,359712230215827
-Upper=99,6402877697842
+Lower=27,7485928705441
+Upper=107,748592870544
 Range=100
 AutoPosition=0
 AutoStretch=0
-Show regression line=1
+Show regression line=0
 Show reference regression line=0
 Regression polynom degree=1
-Clip regression polynom=1
+Clip regression polynom=0
 Regression polynom line width=1
-Regression polynom color files=0
-Regression polynom uni color=8454016
+Regression polynom color files=1
+Regression polynom uni color=255
 Clip reference regression polynom=0
 Show accumulation numbers=0
 Show accumulation colors=0
@@ -55,8 +55,8 @@ Accumulation steps Y=10
 
 [Y-Channel 1]
 Channel name=Ride_Height_Rear
-Lower=-0,359712230215827
-Upper=99,6402877697842
+Lower=27,7485928705441
+Upper=107,748592870544
 Range=100
 AutoPosition=0
 AutoStretch=0
@@ -76,18 +76,18 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=ACC_X
+0=Acceleration_X_Rear
 
 [Y-Channels]
 0=Ride_Height_Front
 1=Ride_Height_Rear
 
 [X-Channel 0]
-Channel name=ACC_X
-Lower=-10,0240963855422
-Upper=9,97590361445783
-Range=20
+Channel name=Acceleration_X_Rear
+Lower=-1,13975407697704
+Upper=1,26024592302296
+Range=3
 
 [File names]
-0=1102-SZUCS-ENDURANCE8101
+0=0806-SZUCS-KARDOS-ENDU01
 

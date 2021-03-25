@@ -1,6 +1,0 @@
-[Settings]
-Channel=Susp_F
-Lower=0.00
-Upper=100.00
-Steps=50
-Only screen=1

@@ -3,11 +3,11 @@ Version=1
 
 [Color]
 ColorAuto=1
-Color type=Uni
+Color type=Color channel
 Uni color=255
-Color channel=SlipControl_Input3
-Ignore lower=-1000000
-Ignore upper=1000000
+Color channel=Acceleration_X_Rear
+Ignore lower=-1,5
+Ignore upper=1,5
 Ignore color active=0
 
 [Additional]
@@ -16,14 +16,14 @@ Down sampling=0
 
 [Phase conditions]
 Use phases=1
-Conditions file=rideheight.pct
+Conditions file=Brake_Force_vs_Pressure.pct
 
 [Graphics]
-Graphic type=Pixel
+Graphic type=Circle
 Line threshold=10
-Pen width=0
+Pen width=1
 Pen style=Solid
-Circle radius=2
+Circle radius=3
 Fill circles=0
 Cross radius=2
 
@@ -32,13 +32,13 @@ File type=Active
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Ride_Height_Front
-Lower=30,5755395683454
-Upper=60,0719424460432
+Channel name=Brake_Pressure_Front
+Lower=-5,984375
+Upper=56,984375
 Range=100
 AutoPosition=0
 AutoStretch=0
-Show regression line=1
+Show regression line=0
 Show reference regression line=0
 Regression polynom degree=1
 Clip regression polynom=0
@@ -54,13 +54,13 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [Y-Channel 1]
-Channel name=Ride_Height_Rear
-Lower=0
-Upper=100
+Channel name=Brake_Pressure_Rear
+Lower=11,6
+Upper=32,4
 Range=100
 AutoPosition=0
 AutoStretch=0
-Show regression line=1
+Show regression line=0
 Show reference regression line=0
 Regression polynom degree=1
 Clip regression polynom=0
@@ -76,18 +76,15 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=ACC_X
+0=Brake_Force
 
 [Y-Channels]
-0=Ride_Height_Front
-1=Ride_Height_Rear
+0=Brake_Pressure_Front
+1=Brake_Pressure_Rear
 
 [X-Channel 0]
-Channel name=ACC_X
-Lower=-6,7710843373494
-Upper=12,6987951807229
-Range=20
-
-[File names]
-0=1102-SZUCS-ENDURANCE8101
+Channel name=Brake_Force
+Lower=-298,88671875
+Upper=693,88671875
+Range=300
 

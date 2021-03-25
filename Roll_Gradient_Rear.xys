@@ -5,7 +5,7 @@ Version=1
 ColorAuto=1
 Color type=Uni
 Uni color=255
-Color channel=V_Front
+Color channel=ValidSat
 Ignore lower=-1000000
 Ignore upper=1000000
 Ignore color active=0
@@ -16,7 +16,7 @@ Down sampling=0
 
 [Phase conditions]
 Use phases=1
-Conditions file=rollmerevseg.pct
+Conditions file=Roll_Gradient_Rear.pct
 
 [Graphics]
 Graphic type=Pixel
@@ -32,37 +32,36 @@ File type=Active
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Roll_Angle_Front
-Lower=0,0790067720090293
-Upper=3,54401805869075
-Range=1,95662299221907
-AutoPosition=1
+Channel name=Roll_Angle_Rear
+Lower=-1,81457704175264
+Upper=0,280235777236521
+Range=2
+AutoPosition=0
 AutoStretch=0
 Show regression line=0
 Show reference regression line=0
 Regression polynom degree=1
 Clip regression polynom=0
-Regression polynom line width=2
-Regression polynom color files=0
-Regression polynom uni color=65280
-Clip reference regression polynom=1
+Regression polynom line width=1
+Regression polynom color files=1
+Regression polynom uni color=255
+Clip reference regression polynom=0
 Show accumulation numbers=0
 Show accumulation colors=0
 Accumulation min=0
 Accumulation max=100
 Accumulation steps X=10
 Accumulation steps Y=10
-Reference regression polynom text=- 0.0361090239474864x - 0.0378054814437232
 
 [X-Channels]
-0=Acceleration_Y_Front_Filtered
+0=Acceleration_Y_Rear
 
 [Y-Channels]
-0=Roll_Angle_Front
+0=Roll_Angle_Rear
 
 [X-Channel 0]
-Channel name=Acceleration_Y_Front_Filtered
-Lower=-3
-Upper=3
+Channel name=Acceleration_Y_Rear
+Lower=-2,76296202
+Upper=2,86844922
 Range=6
 

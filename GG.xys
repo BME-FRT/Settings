@@ -23,7 +23,7 @@ Graphic type=Circle
 Line threshold=10
 Pen width=1
 Pen style=Solid
-Circle radius=4
+Circle radius=3
 Fill circles=1
 Cross radius=2
 
@@ -64,4 +64,7 @@ Channel name=Acceleration_Y_Rear
 Lower=-3
 Upper=3
 Range=6
+
+[File names]
+0=0806-SZUCS-KARDOS-ENDU01
 

@@ -16,7 +16,7 @@ Down sampling=0
 
 [Phase conditions]
 Use phases=1
-Conditions file=brakeforce_vs_ax.pct
+Conditions file=Brake_Force_vs_Acc_X_Rear.pct
 
 [Graphics]
 Graphic type=Pixel
@@ -32,10 +32,10 @@ File type=Active
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Acceleration_X_Front
-Lower=-3
-Upper=3
-Range=6
+Channel name=Acceleration_X_Rear
+Lower=-2,34501242906987
+Upper=2,09191378995934
+Range=3
 AutoPosition=0
 AutoStretch=0
 Show regression line=0
@@ -57,11 +57,11 @@ Accumulation steps Y=10
 0=Brake_Force
 
 [Y-Channels]
-0=Acceleration_X_Front
+0=Acceleration_X_Rear
 
 [X-Channel 0]
 Channel name=Brake_Force
-Lower=0
-Upper=1000
-Range=1000
+Lower=-356,178731602024
+Upper=735,432206677909
+Range=300
 

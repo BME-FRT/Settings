@@ -33,8 +33,8 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=Iq3
-Lower=-0,5
-Upper=0,5
+Lower=-0,287685774946921
+Upper=0,712314225053079
 Range=100
 AutoPosition=0
 AutoStretch=0
@@ -61,7 +61,7 @@ Accumulation steps Y=10
 
 [X-Channel 0]
 Channel name=Id3
-Lower=-0,2
-Upper=0,2
+Lower=-0,187878787878788
+Upper=0,212121212121212
 Range=100
 
