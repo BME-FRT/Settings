@@ -6,37 +6,39 @@ PositionAtTop=0
 DynaShrinkMode=0
 
 [Analyzer]
-UserName="bekes"
-Last Scans=4434149
-Last seconds="2771,343125"
+UserName="pungorpeter"
+Last Scans=43592
+Last seconds="27,245"
 Sort type=4
 Color scheme switch=1
 Sort group=2
 Show Tips at start=0
-Replace current=1
-Show phases=0
+Replace current=0
+Show phases=1
 Last CalMode=3
-Orig Template="driver"
+Orig Template="Overview"
 Previous Geometry Orig Template="Overview"
-Last Session Orig Template="driver"
+Last Session Orig Template="Overview"
 Measuring all channels=0
 Relative values=0
 Last CalFileName DataRoot=""
 Last CalFileName Event=""
-Last CalFileName Measurement="0806-SZUCS-KARDOS-ENDU01.CAL"
-Last CalFileName Software="HV Accumulator Cell Temperautre.CAL"
+Last CalFileName Measurement="0624-NAGY-DANI01.CAL"
+Last CalFileName Software="2021_Brake.CAL"
 Last CalFileName SWSubFolder=""
 Search calc channel=""
 Cal sort type=2
 SW SubFolder=""
-Last MinMax="TestDataTemplate.mms"
-Last Data window="proba.dwn"
-Last StatusBits="StatusBits1.sbt"
+Last MinMax="mm Overall.mms"
+Last Data window="asd.dwn"
+Last StatusBits="statusbits.sbt"
 Last ChannelBitMaps="ChannelBitMaps1.cbm"
-Last XY-Plot="GG.xys"
-Last Histogram="Histo1.sts"
+Last XY-Plot="Damper_Fz_4.xys"
+Last Histogram="steering.sts"
 Last Export="xy.exs"
 GPSLineFile="C:\Users\bekes\Documents\FRT\Log\200624_T5_HRING.20\Hungaroring.line"
+Last Track mode="2D GPS Cornerspeed.tms"
+File sort type=2
 
 [Options]
 KeyPanningDirection=1
@@ -98,64 +100,74 @@ Mouse move in measuring=0
 Print Excel direct=0
 
 [Recent Files]
-0="C:\Users\bekes\Documents\FRT\Log\20200806_T18_TOKOL.20\0806-SZUCS-KARDOS-ENDU01"
-1="C:\Users\bekes\Documents\FRT\Log\200624_T5_HRING.20\0624-SZUCS-ENDU-STAB01"
-2="C:\Users\bekes\Documents\FRT\Log\20200701_T7_TOKOL.20\0701-SZUCS-ENDU-AERO01"
-3="C:\Users\bekes\Documents\FRT\Log\20200703_T8_TOKOL.20\0703-KARDOS-ENDU-AERO01"
-4="C:\Users\bekes\Documents\FRT\Log\190710_ZAZAZONE_BALAZS_KARDOS_SKIDPAD_ACCELERATION.19\0711-RED-001-01"
-5="C:\Users\bekes\Documents\FRT\Log\190708_ZALAZONE_SZUCS.19\0708-RED-001-RUN101"
-6="C:\Users\bekes\Documents\FRT\Log\190707_GÖNYÜ_SZÜCS_YAWCONTROL.19\0707-RED-001-RUN101"
-7="C:\Users\bekes\Documents\FRT\Log\190706_günyi_szucs_kardos_regbrake_yaw.19\0706-RED-001-RUN101"
-8="C:\Users\bekes\Documents\FRT\Log\190704_ZALAZONE_SZUCS_KARDOS.19\0704-RED-001-RUN101"
-9="C:\Users\bekes\Documents\FRT\Log\190706_GÖNYÜ_SKIDPAD_KARDOS_SZUCS_BALAZS.19\0706-RED-001-RUN101"
+0="D:\FRT\LOGS\200624_T5_HRING.20\0624-NAGY-DANI01"
+1="D:\FRT\LOGS\20200806_T18_TOKOL.20\0806-SZUCS-KARDOS-ENDU01"
+2="D:\FRT\LOGS\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
+3="D:\FRT\LOGS\2018pestszentlorinc\0904--01"
+4="D:\FRT\LOGS\190709_ZALAZONE_SZUCS_FODOR_ENDU.19\0709-RED-001-02"
+5="D:\FRT\LOGS\20200811_T19_HRING.20\0811-BALDI-ENDU01_edited"
+6="D:\FRT\LOGS\20190617_SZUCS_TOKOL.19\0617-RED-001-RUN101"
+7="D:\FRT\LOGS\20200811_T19_HRING.20\Rod_Force_Measurement"
+8="D:\FRT\LOGS\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU01"
+9="D:\FRT\LOGS\TOKOL_SZUCS_20180930.18\0930-REC-008-01"
 
 [MRU_Template]
-0="driver"
-1="Overview"
-2="YAW"
-3="02_Brake"
-4="Power"
+0="Overview"
+1="LV_CELL"
+2="traction"
+3="Power"
+4="2D Suspension Position"
+
+[MRU_TrackMode]
+0="2D GPS Cornerspeed.tms"
+1="RPM_usage.tms"
 
 [MRU_XY-Plot]
-0="GG.xys"
-1="fek.xys"
-2="brake_curve.xys"
-3="brakeforcevspress.xys"
-4="fekezes.xys"
+0="Damper_Fz_4.xys"
+1="Damper_Fz_3.xys"
+2="Damper_Fz_2.xys"
+3="Damper_Fz_1.xys"
+4="Brake_Pressure_Front_vs_Rear.xys"
 
 [MRU_MinMax]
-0="TestDataTemplate.mms"
-1="electric.mms"
-2="brakpress.mms"
-3="table.mms"
-4="Engine.mms"
+0="mm Overall.mms"
+1="TestDataTemplate.mms"
+2="YAW.mms"
+3="electric.mms"
+4="brakpress.mms"
 
 [MRU_Histogram]
-0="Histo1.sts"
-1="Damper_Vel2.sts"
+0="steering.sts"
+1="damper vel 1.sts"
+2="velocity.sts"
+3="Throttttle.sts"
+4="Damper_Vel.sts"
 
 [MRU_DataWindow]
-0="proba.dwn"
+0="asd.dwn"
+1="proba.dwn"
 
 [MRU_Export]
 0="xy.exs"
 1="proba.exs"
 
 [MRU_StatusBits]
-0="StatusBits1.sbt"
+0="statusbits.sbt"
+1="StatusBits1.sbt"
 
 [MRU_ChannelBitMaps]
 0="ChannelBitMaps1.cbm"
 
 [History\Export Ascii]
-0="C:\Users\bekes\Documents\FRT\Simulink"
+0="D:\FRT\speed_approximation"
 1="<DataDir>"
 2="C:\Users\bekes\Desktop"
 3="<TempDir>"
 
 [History\Export MinMax]
-0="<DataDir>"
-1="C:\TMP"
+0="C:\Users\pungorpeter\Desktop"
+1="<DataDir>"
+2="C:\TMP"
 
 [MultiCircuit options]
 Color auto=1
