@@ -7,8 +7,8 @@ DynaShrinkMode=0
 
 [Analyzer]
 UserName="pungorpeter"
-Last Scans=43592
-Last seconds="27,245"
+Last Scans=774
+Last seconds="0,48375"
 Sort type=4
 Color scheme switch=1
 Sort group=2
@@ -23,17 +23,17 @@ Measuring all channels=0
 Relative values=0
 Last CalFileName DataRoot=""
 Last CalFileName Event=""
-Last CalFileName Measurement="0624-NAGY-DANI01.CAL"
-Last CalFileName Software="2021_Brake.CAL"
+Last CalFileName Measurement="0806-SZUCS-KARDOS-ENDU01.CAL"
+Last CalFileName Software="2021_TestData.CAL"
 Last CalFileName SWSubFolder=""
 Search calc channel=""
 Cal sort type=2
 SW SubFolder=""
-Last MinMax="mm Overall.mms"
+Last MinMax="TestDataTemplate.mms"
 Last Data window="asd.dwn"
 Last StatusBits="statusbits.sbt"
 Last ChannelBitMaps="ChannelBitMaps1.cbm"
-Last XY-Plot="Damper_Fz_4.xys"
+Last XY-Plot="Damper_Fz_1.xys"
 Last Histogram="steering.sts"
 Last Export="xy.exs"
 GPSLineFile="C:\Users\bekes\Documents\FRT\Log\200624_T5_HRING.20\Hungaroring.line"
@@ -100,8 +100,8 @@ Mouse move in measuring=0
 Print Excel direct=0
 
 [Recent Files]
-0="D:\FRT\LOGS\200624_T5_HRING.20\0624-NAGY-DANI01"
-1="D:\FRT\LOGS\20200806_T18_TOKOL.20\0806-SZUCS-KARDOS-ENDU01"
+0="D:\FRT\LOGS\20200806_T18_TOKOL.20\0806-SZUCS-KARDOS-ENDU01"
+1="D:\FRT\LOGS\200624_T5_HRING.20\0624-NAGY-DANI01"
 2="D:\FRT\LOGS\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
 3="D:\FRT\LOGS\2018pestszentlorinc\0904--01"
 4="D:\FRT\LOGS\190709_ZALAZONE_SZUCS_FODOR_ENDU.19\0709-RED-001-02"
@@ -123,15 +123,15 @@ Print Excel direct=0
 1="RPM_usage.tms"
 
 [MRU_XY-Plot]
-0="Damper_Fz_4.xys"
-1="Damper_Fz_3.xys"
-2="Damper_Fz_2.xys"
-3="Damper_Fz_1.xys"
+0="Damper_Fz_1.xys"
+1="Damper_Fz_2.xys"
+2="Damper_Fz_4.xys"
+3="Damper_Fz_3.xys"
 4="Brake_Pressure_Front_vs_Rear.xys"
 
 [MRU_MinMax]
-0="mm Overall.mms"
-1="TestDataTemplate.mms"
+0="TestDataTemplate.mms"
+1="mm Overall.mms"
 2="YAW.mms"
 3="electric.mms"
 4="brakpress.mms"
@@ -173,10 +173,10 @@ Print Excel direct=0
 Color auto=1
 Line width=1
 Use color channel=0
-Color channel=""
+Color channel="ValidSat"
 Auto center by cross=1
-Ignore lower="0"
-Ignore upper="0"
+Ignore lower="0,5"
+Ignore upper="2,40000009536743"
 Ignore color active=0
 
 [Colors]
