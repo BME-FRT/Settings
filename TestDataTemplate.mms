@@ -6,7 +6,7 @@ Use phases=1
 Conditions file=TestDataTemplate.pct
 
 [Export]
-Export file name=20t18_testdata
+Export file name=asdfgh
 Type=2
 Append to Excel sheet=1
 Insert lines=0
@@ -47,6 +47,7 @@ E_motors=0,0,0,1,0,0,0,1
 E_Useful=0,0,0,1,0,0,0,1
 E_RollRes=0,0,0,1,0,0,0,1
 E_Drag=0,0,0,1,0,0,0,1
+P_Electric=1,1,0,1,0,0,0,0
 Roll_Rate_Front=0,0,0,1,0,0,0,1
 Roll_Rate_Rear=0,0,0,1,0,0,0,1
 Pitch_Gradient=0,0,0,1,0,0,0,1
