@@ -6,7 +6,7 @@ Use phases=1
 Conditions file=TestDataTemplate.pct
 
 [Export]
-Export file name=asdfgh
+Export file name=tring2
 Type=2
 Append to Excel sheet=1
 Insert lines=0
@@ -35,6 +35,7 @@ INT_SlipRatio_3_Braking=0,0,0,1,0,0,0,1
 INT_SlipRatio_4_Braking=0,0,0,1,0,0,0,1
 HV_Current=1,1,0,1,0,0,0,0
 INT_HV_Current=0,0,0,1,0,0,0,1
+AVG_HV_Current=0,0,1,1,0,0,0,0
 INT_Id1=0,0,0,1,0,0,0,1
 INT_Id2=0,0,0,1,0,0,0,1
 INT_Id3=0,0,0,1,0,0,0,1
