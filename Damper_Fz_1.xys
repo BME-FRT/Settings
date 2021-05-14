@@ -33,12 +33,12 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=Fz_1
-Lower=-136,78251406551
-Upper=1463,21748593449
+Lower=-907,594910552037
+Upper=2498,24676109018
 Range=1600
 AutoPosition=0
 AutoStretch=0
-Show regression line=0
+Show regression line=1
 Show reference regression line=0
 Regression polynom degree=1
 Clip regression polynom=0
@@ -61,7 +61,7 @@ Accumulation steps Y=10
 
 [X-Channel 0]
 Channel name=DamperPos_FL
-Lower=-19,8472101249078
-Upper=80,1527898750925
+Lower=-0,147100752929239
+Upper=62,5042664345707
 Range=100
 

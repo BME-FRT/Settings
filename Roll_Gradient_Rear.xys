@@ -33,12 +33,12 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=Roll_Angle_Rear
-Lower=-1,81457704175264
-Upper=0,280235777236521
+Lower=-1,03439748746636
+Upper=1,0604153315228
 Range=2
 AutoPosition=0
 AutoStretch=0
-Show regression line=0
+Show regression line=1
 Show reference regression line=0
 Regression polynom degree=1
 Clip regression polynom=0
@@ -61,7 +61,7 @@ Accumulation steps Y=10
 
 [X-Channel 0]
 Channel name=Acceleration_Y_Rear
-Lower=-2,76296202
-Upper=2,86844922
+Lower=-2,69871101927517
+Upper=2,93270022072483
 Range=6
 

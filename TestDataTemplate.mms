@@ -6,7 +6,7 @@ Use phases=1
 Conditions file=TestDataTemplate.pct
 
 [Export]
-Export file name=tring2
+Export file name=adsd
 Type=2
 Append to Excel sheet=1
 Insert lines=0
@@ -24,7 +24,7 @@ INT_Brake_Pressure_Rear=0,0,0,1,0,0,0,1
 Brake_Pressure_Front=0,1,0,1,0,0,0,0
 Brake_Pressure_Rear=0,1,0,1,0,0,0,0
 INT_Mech_vs_RegBrake=0,0,0,1,0,0,0,1
-Brake_Force=0,1,0,1,0,0,0,0
+BrakeForce=0,1,0,1,0,0,0,0
 INT_SlipRatio_1_Traction=0,0,0,1,0,0,0,1
 INT_SlipRatio_2_Traction=0,0,0,1,0,0,0,1
 INT_SlipRatio_3_Traction=0,0,0,1,0,0,0,1
@@ -59,4 +59,5 @@ AMK_TempMotor_2=0,0,1,1,0,0,0,0
 AMK_TempMotor_3=0,0,1,1,0,0,0,0
 AMK_TempMotor_4=0,0,1,1,0,0,0,0
 HV_Cell_Temperature=0,0,1,1,0,0,0,0
+HV_Cell_Temperature_Critical=0,1,0,1,0,0,0,0
 

@@ -7,8 +7,8 @@ DynaShrinkMode=0
 
 [Analyzer]
 UserName="pungorpeter"
-Last Scans=774
-Last seconds="0,48375"
+Last Scans=2390708
+Last seconds="1494,1925"
 Sort type=4
 Color scheme switch=1
 Sort group=2
@@ -23,20 +23,20 @@ Measuring all channels=0
 Relative values=0
 Last CalFileName DataRoot=""
 Last CalFileName Event=""
-Last CalFileName Measurement="0806-SZUCS-KARDOS-ENDU01.CAL"
-Last CalFileName Software="2021_TestData.CAL"
-Last CalFileName SWSubFolder=""
+Last CalFileName Measurement="0512-KARDOS-SZUCS-ENDU01.CAL"
+Last CalFileName Software="2021_YAW.CAL"
+Last CalFileName SWSubFolder="_2D_CourseInRange.CCF"
 Search calc channel=""
 Cal sort type=2
-SW SubFolder=""
+SW SubFolder="2DCalFiles"
 Last MinMax="TestDataTemplate.mms"
 Last Data window="asd.dwn"
 Last StatusBits="statusbits.sbt"
-Last ChannelBitMaps="ChannelBitMaps1.cbm"
-Last XY-Plot="Damper_Fz_1.xys"
+Last ChannelBitMaps="asd.cbm"
+Last XY-Plot="MMM.xys"
 Last Histogram="steering.sts"
 Last Export="xy.exs"
-GPSLineFile="C:\Users\bekes\Documents\FRT\Log\200624_T5_HRING.20\Hungaroring.line"
+GPSLineFile="D:\FRT\LOGS\20210426_T2_HRING.21\Hungaroring.line"
 Last Track mode="2D GPS Cornerspeed.tms"
 File sort type=2
 
@@ -100,34 +100,34 @@ Mouse move in measuring=0
 Print Excel direct=0
 
 [Recent Files]
-0="D:\FRT\LOGS\20200806_T18_TOKOL.20\0806-SZUCS-KARDOS-ENDU01"
-1="D:\FRT\LOGS\200624_T5_HRING.20\0624-NAGY-DANI01"
-2="D:\FRT\LOGS\20181031_TOKOL_SZUCS\1102-SZUCS-ENDURANCE8101"
-3="D:\FRT\LOGS\2018pestszentlorinc\0904--01"
-4="D:\FRT\LOGS\190709_ZALAZONE_SZUCS_FODOR_ENDU.19\0709-RED-001-02"
-5="D:\FRT\LOGS\20200811_T19_HRING.20\0811-BALDI-ENDU01_edited"
-6="D:\FRT\LOGS\20190617_SZUCS_TOKOL.19\0617-RED-001-RUN101"
-7="D:\FRT\LOGS\20200811_T19_HRING.20\Rod_Force_Measurement"
-8="D:\FRT\LOGS\20181214_TOKOL_SZUCS.18\1214-SZUCS-ENDU01"
-9="D:\FRT\LOGS\TOKOL_SZUCS_20180930.18\0930-REC-008-01"
+0="D:\FRT\LOGS\20210512_T5_HRING.21\0512-KARDOS-SZUCS-ENDU01"
+1="D:\FRT\LOGS\20210512_T5_HRING.21\0512-SZUCS-KARDOS-SUSPENSION01"
+2="D:\FRT\LOGS\20200806_T18_TOKOL.20\0806-SZUCS-KARDOS-ENDU01"
+3="D:\FRT\LOGS\20210509_T4_HRING.21\0509-BALDI-KARDOS-YAWCONTROL-REGBRAKE01"
+4="D:\FRT\LOGS\20210509_T4_HRING.21\0509-KARDOS-BALDI-REGBRAKE-TEST01"
+5="D:\FRT\LOGS\200624_T5_HRING.20\0624-SZUCS-REGBRAKE01"
+6="D:\FRT\LOGS\200624_T5_HRING.20\0624-SZUCS-ENDU-STAB01"
+7="D:\FRT\LOGS\20210429_T3_HRING.21\0429-BALDI-ENDU-02"
+8="D:\FRT\LOGS\20210429_T3_HRING.21\0429-BALDI-ENDU-01"
+9="D:\FRT\LOGS\20210426_T2_HRING.21\0426-KARDOS-ENDU01"
 
 [MRU_Template]
 0="Overview"
-1="LV_CELL"
-2="traction"
-3="Power"
-4="2D Suspension Position"
+1="HV_CELL_TEMPERATURE"
+2="HV_CELL_VOLTAGE"
+3="LV_CELL"
+4="traction"
 
 [MRU_TrackMode]
 0="2D GPS Cornerspeed.tms"
 1="RPM_usage.tms"
 
 [MRU_XY-Plot]
-0="Damper_Fz_1.xys"
-1="Damper_Fz_2.xys"
-2="Damper_Fz_4.xys"
-3="Damper_Fz_3.xys"
-4="Brake_Pressure_Front_vs_Rear.xys"
+0="MMM.xys"
+1="GG.xys"
+2="GG_Front.xys"
+3="Roll_Gradient_Front.xys"
+4="Roll_Gradient_Rear.xys"
 
 [MRU_MinMax]
 0="TestDataTemplate.mms"
@@ -156,13 +156,16 @@ Print Excel direct=0
 1="StatusBits1.sbt"
 
 [MRU_ChannelBitMaps]
-0="ChannelBitMaps1.cbm"
+0="asd.cbm"
+1="ChannelBitMaps1.cbm"
 
 [History\Export Ascii]
-0="D:\FRT\speed_approximation"
-1="<DataDir>"
-2="C:\Users\bekes\Desktop"
-3="<TempDir>"
+0="C:\Users\pungorpeter\Desktop"
+1="<EventDir>"
+2="D:\FRT\speed_approximation"
+3="<DataDir>"
+4="C:\Users\bekes\Desktop"
+5="<TempDir>"
 
 [History\Export MinMax]
 0="C:\Users\pungorpeter\Desktop"
@@ -217,8 +220,8 @@ MeasurementColors34=65280
 MeasurementColors35=8388736
 
 [fCircuit]
-Track color=16711935
-Selection color=65535
+Track color=12615935
+Selection color=16744448
 Positions size=4
 Section color=0
 Show flag=1

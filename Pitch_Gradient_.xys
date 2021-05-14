@@ -3,9 +3,9 @@ Version=1
 
 [Color]
 ColorAuto=1
-Color type=Files
+Color type=Uni
 Uni color=255
-Color channel=VehicleSpeed
+Color channel=HV_Cell_Temperature_Critical
 Ignore lower=-1000000
 Ignore upper=1000000
 Ignore color active=0
@@ -16,26 +16,26 @@ Down sampling=0
 
 [Phase conditions]
 Use phases=1
-Conditions file=GG.pct
+Conditions file=Pitch_Gradient_.pct
 
 [Graphics]
-Graphic type=Circle
+Graphic type=Pixel
 Line threshold=10
-Pen width=1
+Pen width=0
 Pen style=Solid
-Circle radius=3
-Fill circles=1
+Circle radius=2
+Fill circles=0
 Cross radius=2
 
 [Files]
-File type=All
+File type=Active
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Acceleration_X_Rear
-Lower=-2,02528901734104
-Upper=1,72471098265896
-Range=3
+Channel name=Pitch_Angle
+Lower=-2,44730097931776
+Upper=1,39588659258016
+Range=20
 AutoPosition=0
 AutoStretch=0
 Show regression line=0
@@ -54,14 +54,14 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=Acceleration_Y_Rear
-
-[Y-Channels]
 0=Acceleration_X_Rear
 
+[Y-Channels]
+0=Pitch_Angle
+
 [X-Channel 0]
-Channel name=Acceleration_Y_Rear
-Lower=-3,68929173693086
-Upper=3,81070826306914
-Range=6
+Channel name=Acceleration_X_Rear
+Lower=-0,954037928418533
+Upper=1,03359990519669
+Range=6,59999990463257
 

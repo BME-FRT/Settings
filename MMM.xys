@@ -5,7 +5,7 @@ Version=1
 ColorAuto=1
 Color type=Files
 Uni color=255
-Color channel=VehicleSpeed
+Color channel=V_Sat
 Ignore lower=-1000000
 Ignore upper=1000000
 Ignore color active=0
@@ -16,14 +16,14 @@ Down sampling=0
 
 [Phase conditions]
 Use phases=1
-Conditions file=GG.pct
+Conditions file=MMM.pct
 
 [Graphics]
 Graphic type=Circle
 Line threshold=10
 Pen width=1
 Pen style=Solid
-Circle radius=3
+Circle radius=2
 Fill circles=1
 Cross radius=2
 
@@ -32,10 +32,10 @@ File type=All
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Acceleration_X_Rear
-Lower=-2,02528901734104
-Upper=1,72471098265896
-Range=3
+Channel name=Mz_Real
+Lower=-1881,29497184372
+Upper=2269,09565315628
+Range=1700
 AutoPosition=0
 AutoStretch=0
 Show regression line=0
@@ -57,11 +57,11 @@ Accumulation steps Y=10
 0=Acceleration_Y_Rear
 
 [Y-Channels]
-0=Acceleration_X_Rear
+0=Mz_Real
 
 [X-Channel 0]
 Channel name=Acceleration_Y_Rear
-Lower=-3,68929173693086
-Upper=3,81070826306914
+Lower=-7,28550723440803
+Upper=7,36293026559197
 Range=6
 
