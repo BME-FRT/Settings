@@ -1,5 +1,5 @@
 [Header]
-Name=2D GPS Cornerspeed
+Name=trackm_vehiclespeed
 Logic type=2
 Delete phases smaller=0
 Condition count=0

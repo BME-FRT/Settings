@@ -33,8 +33,8 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=Fz_1
-Lower=-907,594910552037
-Upper=2498,24676109018
+Lower=-1351,56897388786
+Upper=256,467709790724
 Range=1600
 AutoPosition=0
 AutoStretch=0
@@ -61,7 +61,7 @@ Accumulation steps Y=10
 
 [X-Channel 0]
 Channel name=DamperPos_FL
-Lower=-0,147100752929239
-Upper=62,5042664345707
+Lower=-3,13283198759206
+Upper=23,0718635665316
 Range=100
 

@@ -33,8 +33,8 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=Roll_Angle_Front
-Lower=-1,92815962419341
-Upper=1,97809037580659
+Lower=-1,11762110461793
+Upper=0,882378895382075
 Range=2
 AutoPosition=0
 AutoStretch=0
@@ -61,7 +61,7 @@ Accumulation steps Y=10
 
 [X-Channel 0]
 Channel name=Acceleration_Y_Front
-Lower=-5,46416128190292
-Upper=6,25458871809708
+Lower=-2,91116227264584
+Upper=3,08883772735416
 Range=6
 

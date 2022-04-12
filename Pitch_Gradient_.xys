@@ -3,7 +3,7 @@ Version=1
 
 [Color]
 ColorAuto=1
-Color type=Uni
+Color type=Files
 Uni color=255
 Color channel=HV_Cell_Temperature_Critical
 Ignore lower=-1000000
@@ -19,26 +19,26 @@ Use phases=1
 Conditions file=Pitch_Gradient_.pct
 
 [Graphics]
-Graphic type=Pixel
+Graphic type=Circle
 Line threshold=10
-Pen width=0
+Pen width=1
 Pen style=Solid
 Circle radius=2
-Fill circles=0
+Fill circles=1
 Cross radius=2
 
 [Files]
-File type=Active
+File type=All
 Dynamic=1
 
 [Y-Channel 0]
 Channel name=Pitch_Angle
-Lower=-2,44730097931776
-Upper=1,39588659258016
+Lower=-0.9239555612054
+Upper=1.00822531540539
 Range=20
 AutoPosition=0
 AutoStretch=0
-Show regression line=0
+Show regression line=1
 Show reference regression line=0
 Regression polynom degree=1
 Clip regression polynom=0
@@ -54,14 +54,14 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=Acceleration_X_Rear
+0=AccX_Rear_Converted
 
 [Y-Channels]
 0=Pitch_Angle
 
 [X-Channel 0]
-Channel name=Acceleration_X_Rear
-Lower=-0,954037928418533
-Upper=1,03359990519669
-Range=6,59999990463257
+Channel name=AccX_Rear_Converted
+Lower=-1.78360752452214
+Upper=0.145026461512634
+Range=5.59999990463257
 

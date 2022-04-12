@@ -6,7 +6,7 @@ Channel steps=40
 Use range middle=0
 Rounded range middle=0
 Use auto limits=0
-Upper limit percent=20
+Upper limit percent=30
 Upper limit values=1000
 Upper limit seconds=60
 Upper limit meter=10000
@@ -40,5 +40,5 @@ damper vel 1.sts\Damper_Velocity_1 ViewType=0
 0=Damper_Velocity_1
 
 [File names]
-0=0624-NAGY-DANI01
+0=0716-ACCEL-SKIDPAD-AUTOX01
 

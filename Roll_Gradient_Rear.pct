@@ -11,6 +11,6 @@ Event start=1
 Event end=1
 PC Laps Type=1
 PC Laps Track selection=1
-PC Laps InOut longer time=4
-PC Laps InOut deviation meter=4
+PC Laps InOut longer time=50
+PC Laps InOut deviation meter=10
 

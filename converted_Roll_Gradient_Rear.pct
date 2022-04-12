@@ -1,5 +1,5 @@
 [Header]
-Name=velocity
+Name=converted_Roll_Gradient_Rear
 Logic type=0
 Delete phases smaller=0
 Condition count=2
@@ -9,10 +9,10 @@ Phase condition type=0
 Delete phases smaller=0
 Event start=1
 Event end=1
-PC Laps Type=2
+PC Laps Type=1
 PC Laps Track selection=1
-PC Laps InOut longer time=48
-PC Laps InOut deviation meter=9
+PC Laps InOut longer time=4
+PC Laps InOut deviation meter=4
 
 [Phase condition 1]
 Channel name=VehicleSpeed
@@ -21,5 +21,5 @@ Delete phases smaller=0
 Event start=1
 Event end=1
 PC Channel Phys from=10
-PC Channel Phys to=120
+PC Channel Phys to=100
 

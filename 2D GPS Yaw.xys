@@ -34,8 +34,8 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=GPS_Yaw
-Lower=-50
-Upper=50
+Lower=-54,5925925925926
+Upper=45,4074074074074
 Range=100
 AutoPosition=0
 AutoStretch=0
@@ -84,7 +84,7 @@ Accumulation steps Y=10
 
 [X-Channel 0]
 Channel name=V_GPS
-Lower=50
-Upper=270
+Lower=-21,1677852348993
+Upper=198,832214765101
 Range=270
 

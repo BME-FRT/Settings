@@ -1,0 +1,67 @@
+[General]
+Version=1
+
+[Color]
+ColorAuto=1
+Color type=Color channel
+Uni color=255
+Color channel=AMK_TorqueLimit_1
+Ignore lower=-15
+Ignore upper=25
+Ignore color active=0
+
+[Y-Channel 0]
+Channel name=AccX_Rear_Converted
+Lower=-2,60122291109603
+Upper=2,40125381455836
+Range=5,59999990463257
+AutoPosition=0
+AutoStretch=1
+Show regression line=0
+Show reference regression line=0
+Regression polynom degree=1
+Clip regression polynom=0
+Regression polynom line width=1
+Regression polynom color files=1
+Regression polynom uni color=255
+Clip reference regression polynom=0
+Show accumulation numbers=0
+Show accumulation colors=0
+Accumulation min=0
+Accumulation max=100
+Accumulation steps X=10
+Accumulation steps Y=10
+
+[Additional]
+Y-Channels joined=0
+Down sampling=0
+
+[Phase conditions]
+Use phases=1
+Conditions file=converted GG_rear.pct
+
+[Graphics]
+Graphic type=Circle
+Line threshold=10
+Pen width=1
+Pen style=Solid
+Circle radius=2
+Fill circles=1
+Cross radius=0
+
+[Files]
+File type=All
+Dynamic=1
+
+[X-Channels]
+0=AccY_Rear_Converted
+
+[Y-Channels]
+0=AccX_Rear_Converted
+
+[X-Channel 0]
+Channel name=AccY_Rear_Converted
+Lower=-2,70049832620827
+Upper=2,514849749474
+Range=5,59999990463257
+

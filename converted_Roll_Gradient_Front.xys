@@ -5,7 +5,7 @@ Version=1
 ColorAuto=1
 Color type=Uni
 Uni color=255
-Color channel=ValidSat
+Color channel=DamperPos_FL
 Ignore lower=-1000000
 Ignore upper=1000000
 Ignore color active=0
@@ -16,7 +16,7 @@ Down sampling=0
 
 [Phase conditions]
 Use phases=1
-Conditions file=Roll_Gradient_Rear.pct
+Conditions file=converted_Roll_Gradient_Front.pct
 
 [Graphics]
 Graphic type=Pixel
@@ -32,9 +32,9 @@ File type=Active
 Dynamic=1
 
 [Y-Channel 0]
-Channel name=Roll_Angle_Rear
-Lower=-1,29624908984
-Upper=1,32226693389645
+Channel name=Roll_Angle_Front
+Lower=-1,14077067462178
+Upper=0,828083607914368
 Range=2
 AutoPosition=0
 AutoStretch=0
@@ -54,14 +54,14 @@ Accumulation steps X=10
 Accumulation steps Y=10
 
 [X-Channels]
-0=Acceleration_Y_Rear
+0=AccY_Front_Converted
 
 [Y-Channels]
-0=Roll_Angle_Rear
+0=Roll_Angle_Front
 
 [X-Channel 0]
-Channel name=Acceleration_Y_Rear
-Lower=-3,40263742427517
-Upper=3,63662662572483
-Range=6
+Channel name=AccY_Front_Converted
+Lower=-2,89915350246945
+Upper=2,85401764691193
+Range=5,59999990463257
 

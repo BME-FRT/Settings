@@ -19,12 +19,12 @@ Use phases=1
 Conditions file=GG_Front.pct
 
 [Graphics]
-Graphic type=Pixel
+Graphic type=Circle
 Line threshold=10
-Pen width=0
+Pen width=1
 Pen style=Solid
 Circle radius=2
-Fill circles=0
+Fill circles=1
 Cross radius=2
 
 [Files]
@@ -33,8 +33,8 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=Acceleration_X_Front
-Lower=-3
-Upper=3
+Lower=-2,13763741405019
+Upper=2,04726560377666
 Range=6
 AutoPosition=0
 AutoStretch=0
@@ -61,7 +61,7 @@ Accumulation steps Y=10
 
 [X-Channel 0]
 Channel name=Acceleration_Y_Front
-Lower=-3
-Upper=3
+Lower=-3,37348361965719
+Upper=3,65532023721238
 Range=6
 

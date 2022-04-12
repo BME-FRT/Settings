@@ -1,0 +1,15 @@
+[Header]
+Name=bolintmerevseg
+Logic type=0
+Delete phases smaller=0
+Condition count=1
+
+[Phase condition 0]
+Channel name=VehicleSpeed
+Phase condition type=5
+Delete phases smaller=0
+Event start=1
+Event end=1
+PC Channel Phys from=20
+PC Channel Phys to=100
+

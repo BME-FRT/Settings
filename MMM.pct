@@ -2,7 +2,7 @@
 Name=MMM
 Logic type=0
 Delete phases smaller=0
-Condition count=1
+Condition count=2
 
 [Phase condition 0]
 Phase condition type=0
@@ -13,4 +13,13 @@ PC Laps Type=1
 PC Laps Track selection=1
 PC Laps InOut longer time=4
 PC Laps InOut deviation meter=4
+
+[Phase condition 1]
+Channel name=VehicleSpeed
+Phase condition type=5
+Delete phases smaller=0
+Event start=1
+Event end=1
+PC Channel Phys from=10
+PC Channel Phys to=120
 

@@ -6,10 +6,11 @@ Use phases=1
 Conditions file=TestDataTemplate.pct
 
 [Export]
-Export file name=adsd
+Export file name=ddf
 Type=2
 Append to Excel sheet=1
 Insert lines=0
+Power-Bi fill=0
 
 [MinMax Channels]
 VehicleSpeed=0,1,0,1,0,0,0,0
@@ -18,6 +19,7 @@ INT_Coast=0,0,0,1,0,0,0,1
 INT_Steering_Angle=0,0,0,1,0,0,0,1
 INT_Throttle_Steering=0,0,0,1,0,0,0,1
 INT_Throttle=0,0,0,1,0,0,0,1
+INT_M_Yaw=0,0,0,1,0,0,0,1
 INT_Brake_Force=0,0,0,1,0,0,0,1
 INT_Brake_Pressure_Front=0,0,0,1,0,0,0,1
 INT_Brake_Pressure_Rear=0,0,0,1,0,0,0,1
@@ -25,6 +27,7 @@ Brake_Pressure_Front=0,1,0,1,0,0,0,0
 Brake_Pressure_Rear=0,1,0,1,0,0,0,0
 INT_Mech_vs_RegBrake=0,0,0,1,0,0,0,1
 BrakeForce=0,1,0,1,0,0,0,0
+INT_Brake_Steering=0,0,0,1,0,0,0,1
 INT_SlipRatio_1_Traction=0,0,0,1,0,0,0,1
 INT_SlipRatio_2_Traction=0,0,0,1,0,0,0,1
 INT_SlipRatio_3_Traction=0,0,0,1,0,0,0,1
@@ -45,9 +48,10 @@ INT_Iq2=0,0,0,1,0,0,0,1
 INT_Iq3=0,0,0,1,0,0,0,1
 INT_Iq4=0,0,0,1,0,0,0,1
 State_of_Charge=0,0,0,1,0,0,1,0
-E_Electric_pos=0,0,0,1,0,0,0,1
+E_Electric=0,0,0,1,0,0,1,0
+E_Electric_pos=0,0,0,1,0,0,1,0
 E_motors=0,0,0,1,0,0,0,1
-E_Useful=0,0,0,1,0,0,0,1
+E_Useful=0,0,0,1,0,0,1,0
 E_RollRes=0,0,0,1,0,0,0,1
 E_Drag=0,0,0,1,0,0,0,1
 P_Electric=1,1,0,1,0,0,0,0

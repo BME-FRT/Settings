@@ -33,8 +33,8 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=Acceleration_X_Rear
-Lower=-2,02528901734104
-Upper=1,72471098265896
+Lower=-1,89040565126329
+Upper=1,72659856427923
 Range=3
 AutoPosition=0
 AutoStretch=0
@@ -61,7 +61,7 @@ Accumulation steps Y=10
 
 [X-Channel 0]
 Channel name=Acceleration_Y_Rear
-Lower=-3,68929173693086
-Upper=3,81070826306914
+Lower=-3,62803395746127
+Upper=3,68635362643135
 Range=6
 

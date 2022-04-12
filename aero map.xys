@@ -35,7 +35,7 @@ Dynamic=1
 Channel name=Ride_Height_Rear
 Lower=27,4963820549928
 Upper=48,6251808972504
-Range=23,991735458374
+Range=22,7288273895241
 AutoPosition=1
 AutoStretch=0
 Show regression line=0
@@ -64,8 +64,5 @@ Reference regression polynom text=- 1.70096238843246x + 25.4228159791416
 Channel name=Acceleration_X_Rear
 Lower=-1,5
 Upper=1,5
-Range=2,82920365
-
-[File names]
-0=0806-SZUCS-KARDOS-ENDU01
+Range=2,93002963242617
 

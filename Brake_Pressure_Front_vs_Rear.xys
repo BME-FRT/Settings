@@ -23,7 +23,7 @@ Graphic type=Circle
 Line threshold=10
 Pen width=1
 Pen style=Solid
-Circle radius=3
+Circle radius=6
 Fill circles=1
 Cross radius=0
 
@@ -33,8 +33,8 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=Brake_Pressure_Rear
-Lower=-0,160761443661973
-Upper=28,276738556338
+Lower=-5,02791337794095
+Upper=49,5222575204966
 Range=100
 AutoPosition=0
 AutoStretch=0
@@ -61,7 +61,7 @@ Accumulation steps Y=10
 
 [X-Channel 0]
 Channel name=Brake_Pressure_Front
-Lower=-0,0512704174228693
-Upper=32,4487295825771
+Lower=-12,7878881556387
+Upper=91,3533471959238
 Range=100
 

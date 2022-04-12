@@ -33,12 +33,12 @@ Dynamic=1
 
 [Y-Channel 0]
 Channel name=Pitch_Angle
-Lower=-0,689458703622222
-Upper=1,15694249235094
+Lower=-1.32561230686969
+Upper=0.98238918809676
 Range=20
 AutoPosition=0
 AutoStretch=0
-Show regression line=0
+Show regression line=1
 Show reference regression line=0
 Regression polynom degree=1
 Clip regression polynom=0
@@ -61,7 +61,7 @@ Accumulation steps Y=10
 
 [X-Channel 0]
 Channel name=Acceleration_X_Rear
-Lower=-1,8347909125
-Upper=1,8670231125
+Lower=-2.49350943907595
+Upper=2.13375809217405
 Range=3
 

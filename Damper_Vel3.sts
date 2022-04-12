@@ -1,12 +1,12 @@
 [Scaling]
 Limits auto=0
-Channel from=-30.00
-Channel to=30.00
+Channel from=-50.00
+Channel to=50.00
 Channel steps=40
 Use range middle=0
 Rounded range middle=0
 Use auto limits=0
-Upper limit percent=20
+Upper limit percent=30
 Upper limit values=1000
 Upper limit seconds=60
 Upper limit meter=10000
@@ -40,5 +40,5 @@ Damper_Vel3.sts\Damper_Velocity_3 ViewType=0
 0=Damper_Velocity_3
 
 [File names]
-0=1102-SZUCS-ENDURANCE8101
+0=0716-ACCEL-SKIDPAD-AUTOX01
 

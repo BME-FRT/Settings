@@ -1,12 +1,12 @@
 [Scaling]
 Limits auto=1
 Channel from=0.00
-Channel to=100.00
+Channel to=120.00
 Channel steps=50
 Use range middle=0
 Rounded range middle=0
 Use auto limits=0
-Upper limit percent=20
+Upper limit percent=30
 Upper limit values=1000
 Upper limit seconds=60
 Upper limit meter=10000
@@ -32,13 +32,14 @@ Split type=None
 [Split]
 Split type=None
 
-[Channels]
-0=Throttle_Position_2
-
-[File names]
-0=1102-SZUCS-ENDURANCE8101
-
 [Graphics]
 Settings file=Statist.sgs
 Throttttle.sts\Throttle_Position_2 ViewType=0
+Throttttle.sts\Throttle_Position_1 ViewType=0
+
+[Channels]
+0=Throttle_Position_1
+
+[File names]
+0=0521-KARDOS-BURIAN0ENDU01
 

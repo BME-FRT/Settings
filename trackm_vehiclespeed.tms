@@ -1,33 +1,34 @@
 [General]
 Version number=2
 Color channel=VehicleSpeed
+Left_Color channel=VehicleSpeed
+Right_Color channel=VehicleSpeed
 Display left color channel=0
 Display right color channel=0
 Font.Name=Arial
-Font.Size=16
-Kit-System=Basic
+Font.Size=24
 
 [Color]
-Ignore lower=-10
-Ignore upper=90
+Ignore lower=0
+Ignore upper=120
 Ignore color active=0
-Left Ignore lower=-1000000
-Left Ignore upper=1000000
+Left Ignore lower=-10
+Left Ignore upper=90
 Left Ignore color active=0
-Right Ignore lower=-1000000
-Right Ignore upper=1000000
+Right Ignore lower=-10
+Right Ignore upper=90
 Right Ignore color active=0
 
 [Layout]
 Show track start=1
 Show lap trigger=1
 Show track direction=1
-Show sections=0
+Show sections=1
 Show segments=1
 Inscript segment names=0
 Show corner numbers=1
 Show color scale=1
-Monochrome text=0
+Monochrome text=1
 Segment names horiz=1
 Color channel per segment=0
 
@@ -40,28 +41,31 @@ Track meter=0
 Connection line=1
 Segment frame color=8421376
 Font.Name=Arial
-Font.Size=14
+Font.Size=26
 Show segment name=1
-Segment text color=8421376
 Show corner name=1
+Segment text color=8421376
 
 [Sections]
 Visible=0
-Show legend=1
+Show legend=0
 Dimensions=1
 Lap meter=0
 Track meter=0
 Connection line=1
 Segment frame color=65280
 Font.Name=Arial
-Font.Size=14
+Font.Size=20
 Show segment name=1
+Show corner name=1
 Segment text color=65280
 Show section time=1
-Show corner name=1
+
+[Sections Channels]
+VehicleSpeed=1,1,,0,0
 
 [Corners]
-Visible=1
+Visible=0
 Show legend=1
 Dimensions=1
 Lap meter=0
@@ -69,16 +73,16 @@ Track meter=0
 Connection line=1
 Segment frame color=16776960
 Font.Name=Arial
-Font.Size=14
+Font.Size=28
 Show segment name=0
-Segment text color=16776960
 Show corner name=0
+Segment text color=16776960
 
 [Corners Channels]
 VehicleSpeed=0,1,,0,0
 
 [Straights]
-Visible=1
+Visible=0
 Show legend=1
 Dimensions=1
 Lap meter=0
@@ -86,10 +90,10 @@ Track meter=0
 Connection line=1
 Segment frame color=255
 Font.Name=Arial
-Font.Size=14
+Font.Size=28
 Show segment name=0
-Segment text color=255
 Show corner name=0
+Segment text color=255
 
 [Straights Channels]
 VehicleSpeed=1,1,,0,0
@@ -114,8 +118,11 @@ Track meter=0
 Connection line=1
 Segment frame color=8421504
 Font.Name=Arial
-Font.Size=12
+Font.Size=24
 Show UDM Name=1
+
+[User Channels]
+VehicleSpeed=1
 
 [Phases start]
 Visible=0
@@ -140,12 +147,12 @@ Font.Name=Arial
 Font.Size=12
 
 [Phase conditions]
-Conditions file=2D GPS Cornerspeed.pct
+Conditions file=trackm_vehiclespeed.pct
 
 [Graphics]
 Graphic type=Line
 Line threshold=10
-Pen width=3
+Pen width=5
 Pen style=Solid
 Circle radius=2
 Fill circles=0

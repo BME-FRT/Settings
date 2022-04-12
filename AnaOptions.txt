@@ -7,14 +7,14 @@ DynaShrinkMode=0
 
 [Analyzer]
 UserName="pungorpeter"
-Last Scans=2390708
-Last seconds="1494,1925"
+Last Scans=13927
+Last seconds="8,704375"
 Sort type=4
 Color scheme switch=1
-Sort group=2
+Sort group=11
 Show Tips at start=0
 Replace current=0
-Show phases=1
+Show phases=0
 Last CalMode=3
 Orig Template="Overview"
 Previous Geometry Orig Template="Overview"
@@ -23,8 +23,8 @@ Measuring all channels=0
 Relative values=0
 Last CalFileName DataRoot=""
 Last CalFileName Event=""
-Last CalFileName Measurement="0512-KARDOS-SZUCS-ENDU01.CAL"
-Last CalFileName Software="2021_YAW.CAL"
+Last CalFileName Measurement="Test1.CAL"
+Last CalFileName Software="2021_TCU_Status.CAL"
 Last CalFileName SWSubFolder="_2D_CourseInRange.CCF"
 Search calc channel=""
 Cal sort type=2
@@ -33,12 +33,16 @@ Last MinMax="TestDataTemplate.mms"
 Last Data window="asd.dwn"
 Last StatusBits="statusbits.sbt"
 Last ChannelBitMaps="asd.cbm"
-Last XY-Plot="MMM.xys"
-Last Histogram="steering.sts"
-Last Export="xy.exs"
-GPSLineFile="D:\FRT\LOGS\20210426_T2_HRING.21\Hungaroring.line"
-Last Track mode="2D GPS Cornerspeed.tms"
+Last XY-Plot="GG.xys"
+Last Histogram="Damper_Vel2.sts"
+Last Export="Damperpos.exs"
+GPSLineFile="C:\Users\pungorpeter\Desktop\Red Bull Ring.line"
+Last Track mode="trackm_vehiclespeed.tms"
 File sort type=2
+ST Relative values=0
+Phase conditions="Analyzer.pct"
+Last Script=""
+Last Print report="Moving + 2 Overviews.pms"
 
 [Options]
 KeyPanningDirection=1
@@ -100,34 +104,34 @@ Mouse move in measuring=0
 Print Excel direct=0
 
 [Recent Files]
-0="D:\FRT\LOGS\20210512_T5_HRING.21\0512-KARDOS-SZUCS-ENDU01"
-1="D:\FRT\LOGS\20210512_T5_HRING.21\0512-SZUCS-KARDOS-SUSPENSION01"
-2="D:\FRT\LOGS\20200806_T18_TOKOL.20\0806-SZUCS-KARDOS-ENDU01"
-3="D:\FRT\LOGS\20210509_T4_HRING.21\0509-BALDI-KARDOS-YAWCONTROL-REGBRAKE01"
-4="D:\FRT\LOGS\20210509_T4_HRING.21\0509-KARDOS-BALDI-REGBRAKE-TEST01"
-5="D:\FRT\LOGS\200624_T5_HRING.20\0624-SZUCS-REGBRAKE01"
-6="D:\FRT\LOGS\200624_T5_HRING.20\0624-SZUCS-ENDU-STAB01"
-7="D:\FRT\LOGS\20210429_T3_HRING.21\0429-BALDI-ENDU-02"
-8="D:\FRT\LOGS\20210429_T3_HRING.21\0429-BALDI-ENDU-01"
-9="D:\FRT\LOGS\20210426_T2_HRING.21\0426-KARDOS-ENDU01"
+0="D:\FRT\LOGS\20210728_FSA1.21\0728-KARDOS-BALDI-AUTOX01"
+1="D:\FRT\LOGS\20220403_Pressurebooster.22\Test1"
+2="D:\FRT\LOGS\20210808_FSEAST.21\0809-ZE-BURIAN-SP--BURIAN-SP-ACCEL-BERTA-ACCEL"
+3="C:\Users\pungorpeter\Desktop\skidpad_1"
+4="C:\Users\pungorpeter\Desktop\skidpad"
+5="D:\FRT\LOGS\20210728_FSA1.21\0728-BERTA-ACCEL-BURIAN-SP01"
+6="C:\Users\pungorpeter\Desktop\teszt"
+7="D:\FRT\LOGS\20210609_T11_LACHAZA.21\0609-SKIDPAD0ACCELERATION-BERTA-BURIAN01"
+8="D:\FRT\LOGS\20210803_T20_LACHAZA.21\0803-KARDOS-BALDI-ENDU01"
+9="D:\FRT\LOGS\20210728_FSA1.21\0728-BURIAN-ACCEL01"
 
 [MRU_Template]
 0="Overview"
-1="HV_CELL_TEMPERATURE"
-2="HV_CELL_VOLTAGE"
-3="LV_CELL"
-4="traction"
+1="MotCharacteristic"
+2="driver"
+3="HV_CELL_VOLTAGE"
+4="Power"
 
 [MRU_TrackMode]
-0="2D GPS Cornerspeed.tms"
-1="RPM_usage.tms"
+0="trackm_vehiclespeed.tms"
+1="2D GPS Cornerspeed.tms"
+2="RPM_usage.tms"
 
 [MRU_XY-Plot]
-0="MMM.xys"
-1="GG.xys"
-2="GG_Front.xys"
-3="Roll_Gradient_Front.xys"
-4="Roll_Gradient_Rear.xys"
+0="GG.xys"
+1="Roll_Gradient_Rear.xys"
+2="converted GG_rear.xys"
+3="Pitch_Gradient.xys"
 
 [MRU_MinMax]
 0="TestDataTemplate.mms"
@@ -137,19 +141,20 @@ Print Excel direct=0
 4="brakpress.mms"
 
 [MRU_Histogram]
-0="steering.sts"
+0="Damper_Vel2.sts"
 1="damper vel 1.sts"
-2="velocity.sts"
-3="Throttttle.sts"
-4="Damper_Vel.sts"
+2="Damper_Vel3.sts"
+3="Damper_Vel4.sts"
+4="Throttttle.sts"
 
 [MRU_DataWindow]
 0="asd.dwn"
 1="proba.dwn"
 
 [MRU_Export]
-0="xy.exs"
-1="proba.exs"
+0="Damperpos.exs"
+1="xy.exs"
+2="proba.exs"
 
 [MRU_StatusBits]
 0="statusbits.sbt"
@@ -161,11 +166,11 @@ Print Excel direct=0
 
 [History\Export Ascii]
 0="C:\Users\pungorpeter\Desktop"
-1="<EventDir>"
-2="D:\FRT\speed_approximation"
-3="<DataDir>"
-4="C:\Users\bekes\Desktop"
-5="<TempDir>"
+1="<TempDir>"
+2="<EventDir>"
+3="D:\FRT\speed_approximation"
+4="<DataDir>"
+5="C:\Users\bekes\Desktop"
 
 [History\Export MinMax]
 0="C:\Users\pungorpeter\Desktop"
@@ -174,13 +179,24 @@ Print Excel direct=0
 
 [MultiCircuit options]
 Color auto=1
-Line width=1
-Use color channel=0
-Color channel="ValidSat"
-Auto center by cross=1
-Ignore lower="0,5"
-Ignore upper="2,40000009536743"
+Line width=5
+Use color channel=1
+Color channel="AccX_Rear_Converted"
+Auto center by cross=0
+Ignore lower="-3"
+Ignore upper="3"
 Ignore color active=0
+
+[GoogleEarth options]
+Circuit Type=0
+Circuit By runs lap=0
+Circuit Color channel="V_Sat"
+Circuit By color channel lap=0
+Road Type=0
+Road By runs range=0
+Road Color channel="V_Sat"
+Road By color channel range=0
+Line width=2
 
 [Colors]
 MeasurementColors1=255
@@ -221,9 +237,9 @@ MeasurementColors35=8388736
 
 [fCircuit]
 Track color=12615935
-Selection color=16744448
+Selection color=16711680
 Positions size=4
-Section color=0
+Section color=4259584
 Show flag=1
 Show segments=1
 Show corners=1

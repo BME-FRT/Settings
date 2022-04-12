@@ -8,7 +8,7 @@
 6=AMK
 7=Moments
 8=AMK_temps
-9=Group 10
+9=Dampers
 10=AMK_Torques
 11=Iq
 12=Id
