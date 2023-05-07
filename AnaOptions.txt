@@ -6,9 +6,9 @@ PositionAtTop=0
 DynaShrinkMode=0
 
 [Analyzer]
-UserName="pungorpeter"
-Last Scans=13927
-Last seconds="8,704375"
+UserName="Péter"
+Last Scans=791485
+Last seconds="494,678125"
 Sort type=4
 Color scheme switch=1
 Sort group=11
@@ -17,14 +17,14 @@ Replace current=0
 Show phases=0
 Last CalMode=3
 Orig Template="Overview"
-Previous Geometry Orig Template="Overview"
+Previous Geometry Orig Template="YAW"
 Last Session Orig Template="Overview"
 Measuring all channels=0
 Relative values=0
 Last CalFileName DataRoot=""
 Last CalFileName Event=""
-Last CalFileName Measurement="Test1.CAL"
-Last CalFileName Software="2021_TCU_Status.CAL"
+Last CalFileName Measurement="0719-MOLNARG-BRAKETEST-MOLNARG-BALDI-ENDU01.CAL"
+Last CalFileName Software="2023_TestData.CAL"
 Last CalFileName SWSubFolder="_2D_CourseInRange.CCF"
 Search calc channel=""
 Cal sort type=2
@@ -104,23 +104,23 @@ Mouse move in measuring=0
 Print Excel direct=0
 
 [Recent Files]
-0="D:\FRT\LOGS\20210728_FSA1.21\0728-KARDOS-BALDI-AUTOX01"
-1="D:\FRT\LOGS\20220403_Pressurebooster.22\Test1"
-2="D:\FRT\LOGS\20210808_FSEAST.21\0809-ZE-BURIAN-SP--BURIAN-SP-ACCEL-BERTA-ACCEL"
-3="C:\Users\pungorpeter\Desktop\skidpad_1"
-4="C:\Users\pungorpeter\Desktop\skidpad"
-5="D:\FRT\LOGS\20210728_FSA1.21\0728-BERTA-ACCEL-BURIAN-SP01"
-6="C:\Users\pungorpeter\Desktop\teszt"
-7="D:\FRT\LOGS\20210609_T11_LACHAZA.21\0609-SKIDPAD0ACCELERATION-BERTA-BURIAN01"
-8="D:\FRT\LOGS\20210803_T20_LACHAZA.21\0803-KARDOS-BALDI-ENDU01"
-9="D:\FRT\LOGS\20210728_FSA1.21\0728-BURIAN-ACCEL01"
+0="C:\Users\Péter\OneDrive - Budapesti Mûszaki és Gazdaságtudományi Egyetem\Asztal\FRT\Logok\20220719_T24_EKOL.22\0719-MOLNARG-BRAKETEST-MOLNARG-BALDI-ENDU01"
+1="C:\Users\Péter\OneDrive - Budapesti Mûszaki és Gazdaságtudományi Egyetem\Asztal\FRT\Logok\20220702_T16_HRING.22\0702-FRED-00-BALDI-BRAKE2BEDDING02"
+2="C:\Users\Péter\OneDrive - Budapesti Mûszaki és Gazdaságtudományi Egyetem\Asztal\FRT\Logok\20220430_T0_SHAKEDOWN.22\0501-RED-002-FLIEGL-SLOW-RUNS01"
+3="D:\FRT\LOGS\20210728_FSA1.21\0728-KARDOS-BALDI-AUTOX01"
+4="D:\FRT\LOGS\20220403_Pressurebooster.22\Test1"
+5="D:\FRT\LOGS\20210808_FSEAST.21\0809-ZE-BURIAN-SP--BURIAN-SP-ACCEL-BERTA-ACCEL"
+6="C:\Users\pungorpeter\Desktop\skidpad_1"
+7="C:\Users\pungorpeter\Desktop\skidpad"
+8="D:\FRT\LOGS\20210728_FSA1.21\0728-BERTA-ACCEL-BURIAN-SP01"
+9="C:\Users\pungorpeter\Desktop\teszt"
 
 [MRU_Template]
-0="Overview"
-1="MotCharacteristic"
-2="driver"
-3="HV_CELL_VOLTAGE"
-4="Power"
+0="YAW"
+1="Overview"
+2="MotCharacteristic"
+3="driver"
+4="HV_CELL_VOLTAGE"
 
 [MRU_TrackMode]
 0="trackm_vehiclespeed.tms"
@@ -173,9 +173,10 @@ Print Excel direct=0
 5="C:\Users\bekes\Desktop"
 
 [History\Export MinMax]
-0="C:\Users\pungorpeter\Desktop"
-1="<DataDir>"
-2="C:\TMP"
+0="C:\Users\Péter\OneDrive - Budapesti Mûszaki és Gazdaságtudományi Egyetem\Asztal\FRT\2d"
+1="C:\Users\pungorpeter\Desktop"
+2="<DataDir>"
+3="C:\TMP"
 
 [MultiCircuit options]
 Color auto=1
