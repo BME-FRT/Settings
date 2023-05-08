@@ -6,25 +6,24 @@ Use phases=1
 Conditions file=TestDataTemplate.pct
 
 [Export]
-Export file name=ddf8
+Export file name=asdasd
 Type=2
 Append to Excel sheet=1
 Insert lines=0
 Power-Bi fill=0
 
 [MinMax Channels]
-VehicleSpeed=0,1,0,1,0,0,0,0
+vx_kmph=0,1,0,1,0,0,0,0
 OS_US=0,0,1,1,0,0,0,0
 Coast=0,0,1,1,0,0,0,0
-SteeringAngle_tmp=0,0,1,1,0,0,0,0
+AVG_Steering_Angle=0,0,1,1,0,0,0,0
 Throttle_Steering=0,0,1,1,0,0,0,0
 Throttle=0,0,1,1,0,0,0,0
 M_Yaw=0,0,1,1,0,0,0,0
-Brake_Force_Sensor=0,0,1,1,0,0,0,0
+Brake_Force_Sensor=0,1,1,1,0,0,0,0
 Brake_Pressure_Front=0,1,1,1,0,0,0,0
 Brake_Pressure_Rear=0,1,1,1,0,0,0,0
 Mech_vs_RegBrake=0,0,1,1,0,0,0,0
-BrakeForce=0,1,0,1,0,0,0,0
 Brake_Steering=0,0,1,1,0,0,0,0
 SlipRatio_1_Traction=0,0,1,1,0,0,0,0
 SlipRatio_2_Traction=0,0,1,1,0,0,0,0
@@ -46,10 +45,10 @@ INT_Iq2=0,0,0,1,0,0,0,1
 INT_Iq3=0,0,0,1,0,0,0,1
 INT_Iq4=0,0,0,1,0,0,0,1
 State_of_Charge=0,0,0,1,0,0,1,0
-E_Electric=0,0,0,1,0,0,1,0
-E_Electric_pos=0,0,0,1,0,0,1,0
+E_Electric_pos=0,0,0,1,0,0,0,1
+E_Electric_neg=0,0,0,1,0,0,0,1
 E_motors=0,0,0,1,0,0,0,1
-E_Useful=0,0,0,1,0,0,1,0
+E_Useful=0,0,0,1,0,0,0,1
 E_RollRes=0,0,0,1,0,0,0,1
 E_Drag=0,0,0,1,0,0,0,1
 P_Electric=1,1,0,1,0,0,0,0
