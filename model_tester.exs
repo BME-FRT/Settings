@@ -2,7 +2,7 @@
 Export type=2
 Include base=1
 Diadem header only=0
-Use phases=1
+Use phases=0
 Divide by phases=0
 Use event path=0
 Channels type=2
@@ -12,8 +12,8 @@ Interpolate=0
 Distance export=0
 Distance every meter=10
 Use special channel identifier=0
-Export folder=C:\Users\pungorpeter\Desktop
-Export file name=asdasd
+Export folder=<EventDir>\Logs
+Export file name=filter_signals_v2
 
 [Phase conditions]
 Conditions file=model_tester.pct
@@ -21,7 +21,7 @@ Conditions file=model_tester.pct
 [SeparatorSettings]
 ListSeparator=,
 DecimalSeparator=.
-QuotationMarks= 
+QuotationMarks="
 
 [Channels]
 AMK1_actual_velocity=1
@@ -77,4 +77,5 @@ VDC_Throttle_Breakpoint=1
 VDC_BFS_Offset=1
 VDC_Safety_Mode=1
 VDC_Yaw_Target_Selector=1
+VDC_SMC_P=1
 
